@@ -15,9 +15,10 @@
 
 -(id) init;
 
--(void) onAudio;
--(void) onScores;
--(void) onSkill;
+-(void) onAudio: (CCMenuItemFont*) button;
+-(void) onScores: (CCMenuItemFont*) button;
+-(void) onSkill: (CCMenuItemFont*) button;
+-(void) onBack: (CCMenuItemFont*) button;
 
 @end
 

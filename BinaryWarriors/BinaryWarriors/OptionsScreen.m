@@ -7,6 +7,10 @@
 //
 
 #import "OptionsScreen.h"
+#import "AudioScreen.h"
+#import "SkillScreen.h"
+#import "HighScoresScreen.h"
+#import "MainScreen.h"
 #import "cocos2d.h"
 
 @implementation OptionsScreen : CCLayer
@@ -24,11 +28,12 @@
         int screenWidth = [[CCDirector sharedDirector] winSize].width;
         int screenHeight = [[CCDirector sharedDirector] winSize].height;
         
-        CCMenuItem* newButton = [CCMenuItemFont itemWithString: @"Audio" target:self selector:@selector(onAudio:)];
-        CCMenuItemFont* optionsButton = [CCMenuItemFont itemWithString:@"Skill Level" target:self selector:@selector(onSkill:)];
-        CCMenuItemFont* quitButton = [CCMenuItemFont itemWithString:@"High Scores" target:self selector:@selector(onScores:)];
+        CCMenuItem* audioButton = [CCMenuItemFont itemWithString: @"Audio" target:self selector:@selector(onAudio:)];
+        CCMenuItemFont* skillButton = [CCMenuItemFont itemWithString:@"Skill Level" target:self selector:@selector(onSkill:)];
+        CCMenuItemFont* highScoresButton = [CCMenuItemFont itemWithString:@"High Scores" target:self selector:@selector(onScores:)];
+        CCMenuItemFont* backButton = [CCMenuItemFont itemWithString:@"Back" target:self selector:@selector(onBack:)];
         
-        CCMenu* menu = [CCMenu menuWithItems:newButton, optionsButton, quitButton, nil];
+        CCMenu* menu = [CCMenu menuWithItems:audioButton, skillButton, highScoresButton, backButton, nil];
         
         [menu alignItemsVertically];
         
@@ -39,16 +44,20 @@
     return self;
 }
 
--(void) onAudio{
-    
+-(void) onAudio: (CCMenuItemFont*) button{
+    [[CCDirector sharedDirector] pushScene:[AudioScreen scene]];
 }
 
--(void) onSkill{
-    
+-(void) onSkill: (CCMenuItemFont*) button{
+    [[CCDirector sharedDirector] pushScene:[SkillScreen scene]];
 }
 
--(void) onScores{
-    
+-(void) onScores: (CCMenuItemFont*) button{
+    [[CCDirector sharedDirector] pushScene:[HighScoresScreen scene]];
+}
+
+-(void) onBack: (CCMenuItemFont*) button{
+    [[CCDirector sharedDirector] popScene];
 }
 
 

@@ -143,6 +143,13 @@
 		4AF465F919E0F7CC007DE418 /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF465F819E0F7CC007DE418 /* IntroLayer.m */; };
 		4AF4660719E0FE46007DE418 /* MainScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF4660619E0FE46007DE418 /* MainScreen.m */; };
 		4AF4660A19E10951007DE418 /* OptionsScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF4660919E10951007DE418 /* OptionsScreen.m */; };
+		4AF4660F19E10C75007DE418 /* AudioScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF4660E19E10C75007DE418 /* AudioScreen.m */; };
+		4AF4661119E10CD2007DE418 /* SkillScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF4661019E10CD2007DE418 /* SkillScreen.m */; };
+		4AF4661319E10D00007DE418 /* HighScoresScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF4661219E10D00007DE418 /* HighScoresScreen.m */; };
+		4AF4661919E11847007DE418 /* GameOverScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF4661819E11847007DE418 /* GameOverScreen.m */; };
+		4AF4661B19E118CD007DE418 /* HighScoreScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF4661A19E118CD007DE418 /* HighScoreScreen.m */; };
+		4AF4661D19E11929007DE418 /* PauseScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF4661C19E11929007DE418 /* PauseScreen.m */; };
+		4AF4661F19E119B7007DE418 /* QuitScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF4661E19E119B7007DE418 /* QuitScreen.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -431,6 +438,20 @@
 		4AF4660619E0FE46007DE418 /* MainScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainScreen.m; sourceTree = "<group>"; };
 		4AF4660819E10632007DE418 /* OptionsScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OptionsScreen.h; sourceTree = "<group>"; };
 		4AF4660919E10951007DE418 /* OptionsScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsScreen.m; sourceTree = "<group>"; };
+		4AF4660B19E10BB0007DE418 /* AudioScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioScreen.h; sourceTree = "<group>"; };
+		4AF4660C19E10BEC007DE418 /* SkillScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkillScreen.h; sourceTree = "<group>"; };
+		4AF4660D19E10C2B007DE418 /* HighScoresScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HighScoresScreen.h; sourceTree = "<group>"; };
+		4AF4660E19E10C75007DE418 /* AudioScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioScreen.m; sourceTree = "<group>"; };
+		4AF4661019E10CD2007DE418 /* SkillScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkillScreen.m; sourceTree = "<group>"; };
+		4AF4661219E10D00007DE418 /* HighScoresScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScoresScreen.m; sourceTree = "<group>"; };
+		4AF4661419E11667007DE418 /* GameOverScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameOverScreen.h; sourceTree = "<group>"; };
+		4AF4661519E116E8007DE418 /* HighScoreScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HighScoreScreen.h; sourceTree = "<group>"; };
+		4AF4661619E11744007DE418 /* PauseScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PauseScreen.h; sourceTree = "<group>"; };
+		4AF4661719E117EA007DE418 /* QuitScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuitScreen.h; sourceTree = "<group>"; };
+		4AF4661819E11847007DE418 /* GameOverScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverScreen.m; sourceTree = "<group>"; };
+		4AF4661A19E118CD007DE418 /* HighScoreScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScoreScreen.m; sourceTree = "<group>"; };
+		4AF4661C19E11929007DE418 /* PauseScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PauseScreen.m; sourceTree = "<group>"; };
+		4AF4661E19E119B7007DE418 /* QuitScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuitScreen.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -893,6 +914,20 @@
 				4AF4660619E0FE46007DE418 /* MainScreen.m */,
 				4AF4660819E10632007DE418 /* OptionsScreen.h */,
 				4AF4660919E10951007DE418 /* OptionsScreen.m */,
+				4AF4660B19E10BB0007DE418 /* AudioScreen.h */,
+				4AF4660C19E10BEC007DE418 /* SkillScreen.h */,
+				4AF4660D19E10C2B007DE418 /* HighScoresScreen.h */,
+				4AF4660E19E10C75007DE418 /* AudioScreen.m */,
+				4AF4661019E10CD2007DE418 /* SkillScreen.m */,
+				4AF4661219E10D00007DE418 /* HighScoresScreen.m */,
+				4AF4661419E11667007DE418 /* GameOverScreen.h */,
+				4AF4661519E116E8007DE418 /* HighScoreScreen.h */,
+				4AF4661619E11744007DE418 /* PauseScreen.h */,
+				4AF4661719E117EA007DE418 /* QuitScreen.h */,
+				4AF4661819E11847007DE418 /* GameOverScreen.m */,
+				4AF4661A19E118CD007DE418 /* HighScoreScreen.m */,
+				4AF4661C19E11929007DE418 /* PauseScreen.m */,
+				4AF4661E19E119B7007DE418 /* QuitScreen.m */,
 			);
 			name = screens;
 			sourceTree = "<group>";
@@ -977,10 +1012,12 @@
 			files = (
 				4AF4653D19E0F7CB007DE418 /* CCTexturePVR.m in Sources */,
 				4AF4658D19E0F7CC007DE418 /* ccUtils.c in Sources */,
+				4AF4660F19E10C75007DE418 /* AudioScreen.m in Sources */,
 				4AF464DE19E0F7CB007DE418 /* CCLayer.m in Sources */,
 				4AF4654019E0F7CB007DE418 /* CCTileMapAtlas.m in Sources */,
 				4AF4654319E0F7CB007DE418 /* CCTMXLayer.m in Sources */,
 				4AF465DB19E0F7CC007DE418 /* mat4.c in Sources */,
+				4AF4661919E11847007DE418 /* GameOverScreen.m in Sources */,
 				4AF464B719E0F7CA007DE418 /* ccDeprecated.m in Sources */,
 				4AF4657219E0F7CB007DE418 /* CCDirectorMac.m in Sources */,
 				4AF464CC19E0F7CA007DE418 /* ccGLStateCache.m in Sources */,
@@ -1037,6 +1074,7 @@
 				4AF4650D19E0F7CB007DE418 /* CCScene.m in Sources */,
 				4AF4648C19E0F7CA007DE418 /* CCActionGrid3D.m in Sources */,
 				4AF465D519E0F7CC007DE418 /* mat4stack.c in Sources */,
+				4AF4661F19E119B7007DE418 /* QuitScreen.m in Sources */,
 				4AF4653119E0F7CB007DE418 /* CCSpriteFrameCache.m in Sources */,
 				4AF464BA19E0F7CA007DE418 /* CCDirector.m in Sources */,
 				4AF464AA19E0F7CA007DE418 /* CCAtlasNode.m in Sources */,
@@ -1063,6 +1101,7 @@
 				4AF4649219E0F7CA007DE418 /* CCActionInterval.m in Sources */,
 				4AF4650019E0F7CB007DE418 /* CCPhysicsDebugNode.m in Sources */,
 				4AF4648619E0F7CA007DE418 /* CCActionEase.m in Sources */,
+				4AF4661B19E118CD007DE418 /* HighScoreScreen.m in Sources */,
 				4AF464C319E0F7CA007DE418 /* CCFontDefinition.m in Sources */,
 				4AF4650319E0F7CB007DE418 /* CCPhysicsSprite.mm in Sources */,
 				4AF465E719E0F7CC007DE418 /* vec2.c in Sources */,
@@ -1081,10 +1120,13 @@
 				4AF4651019E0F7CB007DE418 /* CCScheduler.m in Sources */,
 				4AF4656019E0F7CB007DE418 /* CCDirectorIOS.m in Sources */,
 				4AF464E219E0F7CB007DE418 /* CCMenu.m in Sources */,
+				4AF4661119E10CD2007DE418 /* SkillScreen.m in Sources */,
+				4AF4661D19E11929007DE418 /* PauseScreen.m in Sources */,
 				4AF465EB19E0F7CC007DE418 /* vec4.c in Sources */,
 				4AF464AD19E0F7CA007DE418 /* CCCamera.m in Sources */,
 				4AF464A719E0F7CA007DE418 /* CCAnimationCache.m in Sources */,
 				4AF464C919E0F7CA007DE418 /* CCGLProgram.m in Sources */,
+				4AF4661319E10D00007DE418 /* HighScoresScreen.m in Sources */,
 				4AF4660719E0FE46007DE418 /* MainScreen.m in Sources */,
 				4AF465B919E0F7CC007DE418 /* SimpleAudioEngine.m in Sources */,
 				4AF4656B19E0F7CB007DE418 /* CCTouchDispatcher.m in Sources */,

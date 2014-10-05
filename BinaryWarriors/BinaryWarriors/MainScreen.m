@@ -8,6 +8,7 @@
 
 #import "MainScreen.h"
 #import "OptionsScreen.h"
+#import "QuitScreen.h"
 #import "cocos2d.h"
 
 @implementation MainScreen : CCLayer
@@ -50,7 +51,7 @@
 }
 
 -(void) onQuit: (CCMenuItemFont*) button{
-    exit(0);
+    [[CCDirector sharedDirector] pushScene:[QuitScreen scene]];
 }
 
 @end
