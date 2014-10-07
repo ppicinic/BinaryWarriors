@@ -24,6 +24,18 @@
         int screenWidth = [[CCDirector sharedDirector] winSize].width;
         int screenHeight = [[CCDirector sharedDirector] winSize].height;
         
+        NSString* text = @"Choose Skill Level";
+        
+        CCLabelTTF *label = (CCLabelTTF*)[CCLabelTTF labelWithString:text fontName:@"Marker Felt" fontSize:24 dimensions: CGSizeMake(0,100) hAlignment:UITextAlignmentLeft];
+        
+        [label setColor:ccc3(255, 255, 255)];
+        
+        // position the label on the center of the screen
+        label.position =  ccp( (screenWidth / 2) + (0)  , screenHeight - screenHeight/3 );
+        
+        // add the label as a child to this Layer
+        [self addChild: label];
+        
         CCMenuItem* easyButton = [CCMenuItemFont itemWithString: @"Easy" target:self selector:@selector(onEasy:)];
         CCMenuItemFont* intermediateButton = [CCMenuItemFont itemWithString:@"Intermediate" target:self selector:@selector(onIntermediate:)];
         CCMenuItemFont* hardButton = [CCMenuItemFont itemWithString:@"Hard" target:self selector:@selector(onHard:)];

@@ -26,6 +26,18 @@
         int screenWidth = [[CCDirector sharedDirector] winSize].width;
         int screenHeight = [[CCDirector sharedDirector] winSize].height;
         
+        NSString* text = @"Binary Warriors";
+        
+        CCLabelTTF *label = (CCLabelTTF*)[CCLabelTTF labelWithString:text fontName:@"Marker Felt" fontSize:24 dimensions: CGSizeMake(0,100) hAlignment:UITextAlignmentLeft];
+        
+        [label setColor:ccc3(0, 200, 255)];
+        
+        // position the label on the center of the screen
+        label.position =  ccp( (screenWidth / 2) + (0)  , screenHeight/2 );
+        
+        // add the label as a child to this Layer
+        [self addChild: label];
+        
         CCMenuItem* newButton = [CCMenuItemFont itemWithString: @"New" target:self selector:@selector(onNew:)];
         //CCMenuItemFont* resumeButton = [CCMenuItemFont itemWithString:@"Resume" target:self selector:@selector(onResume:)];
         CCMenuItemFont* optionsButton = [CCMenuItemFont itemWithString:@"Options" target:self selector:@selector(onOptions:)];

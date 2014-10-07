@@ -24,6 +24,18 @@
         int screenWidth = [[CCDirector sharedDirector] winSize].width;
         int screenHeight = [[CCDirector sharedDirector] winSize].height;
         
+        NSString* text = @"Toggle High Score Location";
+        
+        CCLabelTTF *label = (CCLabelTTF*)[CCLabelTTF labelWithString:text fontName:@"Marker Felt" fontSize:24 dimensions: CGSizeMake(0,100) hAlignment:UITextAlignmentLeft];
+        
+        [label setColor:ccc3(255, 255, 255)];
+        
+        // position the label on the center of the screen
+        label.position =  ccp( (screenWidth / 2) + (0)  , screenHeight/2 );
+        
+        // add the label as a child to this Layer
+        [self addChild: label];
+        
         CCMenuItem* toggleButton = [CCMenuItemFont itemWithString: @"Local" target:self selector:@selector(onToggle:)];
         CCMenuItemFont* backButton = [CCMenuItemFont itemWithString:@"Back" target:self selector:@selector(onBack:)];
         

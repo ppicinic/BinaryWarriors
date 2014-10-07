@@ -24,6 +24,18 @@
         int screenWidth = [[CCDirector sharedDirector] winSize].width;
         int screenHeight = [[CCDirector sharedDirector] winSize].height;
         
+        NSString* text = @"Are you sure you want to quit the game?";
+        
+        CCLabelTTF *label = (CCLabelTTF*)[CCLabelTTF labelWithString:text fontName:@"Marker Felt" fontSize:24 dimensions: CGSizeMake(0,100) hAlignment:UITextAlignmentLeft];
+        
+        [label setColor:ccc3(255, 255, 255)];
+        
+        // position the label on the center of the screen
+        label.position =  ccp( (screenWidth / 2) + (0)  , screenHeight/2 );
+        
+        // add the label as a child to this Layer
+        [self addChild: label];
+        
         CCMenuItem* quitButton = [CCMenuItemFont itemWithString: @"Quit" target:self selector:@selector(onQuit:)];
         CCMenuItemFont* cancelButton = [CCMenuItemFont itemWithString:@"Cancel" target:self selector:@selector(onCancel:)];
         
