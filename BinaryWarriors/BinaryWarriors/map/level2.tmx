@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="80" height="46" tilewidth="21" tileheight="21">
+ <tileset firstgid="1" name="tilemap" tilewidth="21" tileheight="21" spacing="2" margin="2">
+  <image source="tilemap.png" width="692" height="692"/>
+ </tileset>
+ <tileset firstgid="901" name="backgrounds" tilewidth="21" tileheight="21" margin="2">
+  <image source="backgrounds.png" width="231" height="189"/>
+ </tileset>
+ <tileset firstgid="981" name="backgrounds" tilewidth="21" tileheight="21">
+  <image source="backgrounds.png" width="231" height="189"/>
+ </tileset>
+ <layer name="bg" width="80" height="46">
+  <data encoding="base64" compression="zlib">
+   eJzt0zlSQgEAwFAK74CIIpsKiAuLeP+bkR4OkMz8It1rM34YjR5pQk80pWd6oRm90pwWNB7sjV3Sitb0Ru/0QRva0o4+aT/Yu/aLvumHfulARzrRmf7oQv+DvWttP9Ss7Yeatf1Qs7Yfatb2Q83afqhZ2w81a/uhZm0/1Kzth5q1/VCzth9q1vZDzdp+qFnbDzVr+6FmbT/UrO2HmrX9ULO2H2rW9kPN2n6oWdsPNWv7oWZtP9Ss7Yeatf1Qs7Yfatb2Q83afqhZ2w81a/uhZm0/1Kzth5q1/VCzth9q1vZDzdp+qFnbDzVr+6FmbT/UrO2HmrX9ULNX/J9kpw==
+  </data>
+ </layer>
+ <layer name="clouds" width="80" height="46">
+  <data encoding="base64" compression="zlib">
+   eJzt2bENhDAMBVCkW4idrrz9e2oaFF0CtvF7AyA7ir+ssG2Q2/cTXQHA2a/ot7PL2PseXUBDq8/cHlHPU1mQMXP4X9a8fiqD3GeuZJ2PVSr0V6FGcpDn9bx5vt/cGwDzMu8tEbVlPo+7req96+7R+e4wZvZ9setsdSA/5kTPhv+XY9xzOojOIwAAAMYdJ0AKGQ==
+  </data>
+ </layer>
+ <layer name="Tile Layer 1" width="80" height="46">
+  <data encoding="base64" compression="zlib">
+   eJzt0EENg0AAAEHAQP3rgOqirQLuQQVc9kUym6yBObZleY811z7Mjnt+8/Fr8Wvxa/Fr8Wvxa/Fr8Wvxa/Fr8Wvxa/Fr8Wvxa/Fr8Wvxa/Fr8Wvxa/Fr8Wvxa/Fr8Wvxa/Fr8Wvxa/Fr8Wvxa/Fr8Wvxa/Fr8Wvxa/39PuMvv+nO2+63uvzabD/1C89i1EE=
+  </data>
+ </layer>
+ <layer name="platform" width="80" height="46">
+  <data encoding="base64" compression="zlib">
+   eJzt17EKwyAQBmDjnqVL+v4vWAidOlXIUsiSgphTvw9cnI7cn1NTAmr5LClt+bye+e7KaG0tPX+XPOw/61H2XsvdlcH/5Bnqcl9gFrXOD+cQHPwL87nS8xHvFbJOT6LmNWpdQF/MEmSgvdG+efT3SvT6oFejzbIe6QEQmRnFjOR+HnoNADC2LzXUWsw=
+  </data>
+ </layer>
+ <layer name="accessories" width="80" height="46">
+  <data encoding="base64" compression="zlib">
+   eJzt2lEKgDAIANDRHbtJF6kDxy6wj2JSU947wBCHoGJrAAAAzxzb3xHkdslfempgjhrIY/dXU075AwAooeoM+FW//3YGzDKHrNrvrxoXAAAAAIxE7V+z7BWjRd3gjPaKd8zTAKV0GzYIzw==
+  </data>
+ </layer>
+ <layer name="rewards" width="80" height="46">
+  <data encoding="base64" compression="zlib">
+   eJzt2TsSgCAMBUA9tp/DW9lYKU40kN3aMQLhwYzTxAi2uWZtYu1Baxv1XvKTF0BWzqZYPed/hd5YC4wRrvT9d5bGua6Qv8A9rTkCdzlzqMZdmGij5WqP47HP4T37CACA6tyJ88r23+TP73la+3w+2xwylta+jK6l7wHeOwDhkQ35
+  </data>
+ </layer>
+ <layer name="exit" width="80" height="46">
+  <data encoding="base64" compression="zlib">
+   eJzt0EEJAEAIAEHBUCa5/lXuZwVRZhIsGwEAAAAAAAAAAAAAAAA3VE4X7Pb8A2gfZ48Akw==
+  </data>
+ </layer>
+ <layer name="trap" width="80" height="46">
+  <data encoding="base64" compression="zlib">
+   eJzt0LEJACAQBMHXJmzP/nNzzTUQPhBhBi4/NgIAAAAAAAAAAAAAACBnlIhW93FnteqvP/xMvxz9AM4mGD0C3w==
+  </data>
+ </layer>
+ <layer name="trap2" width="80" height="46">
+  <data encoding="base64" compression="zlib">
+   eJzt0LEJACAMRNHgEq7vKI6mtdilCIH34PrjRwAAAAAAAAAAAAAAAOTNEftd9acubqtV/aEz/XL0A/g7aDEGaQ==
+  </data>
+ </layer>
+ <layer name="enemies" width="80" height="46">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T+1rCKAAAAAAAAAAAAAAAAAAAHgDOYAAAQ==
+  </data>
+ </layer>
+</map>
