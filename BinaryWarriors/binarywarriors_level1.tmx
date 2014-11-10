@@ -3,37 +3,34 @@
  <tileset firstgid="1" name="tiles_mga" tilewidth="16" tileheight="16">
   <image source="tiles_mga.png" width="128" height="128"/>
  </tileset>
- <tileset firstgid="65" name="tiles_mga" tilewidth="16" tileheight="16">
-  <image source="tiles_mga.png" width="128" height="128"/>
- </tileset>
  <layer name="platforms" width="80" height="60">
   <data encoding="base64" compression="zlib">
-   eJztm9FuwyAMRfNtU/oR3bSHpdrDtv9/b1BlFWWhcbANBu6RUCtVUDi4NkXtZQK5XNY2155Ew8wT/EmAPxnwJ8Ojv+va3tf2UXsiDDz6awn4kwF/MuBPRmv+vNWW1vx5A/5kwJ8M+JPRgz+qKdRK1pYe/BE11uHRX248wZ8M+LPF4uw9kj8L4E8G/D3I/Wy35I/WuEx+7hBa8kdw51virqZnf1rEcb+NffiTAX8yWvTniR79beuGZR2x9BffA3g4a1jQY/yVpLY/j2fiM9T2R2jM4SjvcfJgnHPi816qX0/+aqDpT1Ln4G9M4E9GK/681ulcf7XOxt72upX4I7zNtTV/mry61+Mysr/A1/T4D1Fot4z+pf1p503peMEfOTjyt3e+HT3+fqang7+M/qP7C0gcwJ+Nvx7uPrn1FfGXhlNf4S8Np77uOeDeJVn5O3sPaQWnvnqMv7DvS6LlnFP30MpvHv2Fff9NtJxzVgqN/ObRH0FrsyI3v515/RXW/qzH18hv3DlqfH/b/jb+qB6UqO9SP6PGX9jLhfEe8PcfcufN31vmOCk+1/atPGbsjuPvaA6SOc5Rf4tHeq41Xsi1oebG+Zf8XY3Xknq8A960lzs=
+   eJztm9FuwyAMRaMp/Yhu2sNS7WHb//9fgyqrKAuNg20wcI+EWqmCwsG1KWovE8jlsra59iQaZp7gTwL8yYA/GR79Xdf2vraP2hNh4NFfS8CfDPiTAX8yWvPnrba05s8b8CcD/mTAn4we/FFNoVaytvTgj6ixDo/+cuMJ/mTAny0WZ++R/FkAfzLg70HuZ7slf7TGZfJzh9CSP4I73xJ3NT370yKO+23sw58M+JPRoj9P9OhvWzcs64ilv/gewMNZw4Ie468ktf15PBOfobY/QmMOR3mPkwfjnBOf91L9evJXA01/kjoHf2MCfzJa8ee1Tuf6q3U29rbXrcQf4W2urfnT5NW9HpeR/QW+psd/iEK7ZfQv7U87b0rHC/7IwZG/vfPt6PH3Mz0d/GX0H91fQOIA/mz89XD3ya2viL80nPoKf2k49XXPAfcuycrf2XtIKzj11WP8hX1fEi3nnLqHVn7z6C/s+2+i5ZyzUmjkN4/+CFqbFbn57czrr7D2Zz2+Rn7jzlHj+9v2t/FH9aBEfZf6GTX+wl4ujPeAv/+QO2/+3jLHSfG5tm/lMWN3HH9Hc5DMcY76WzzSc63xQq4NNTfOv+TvaryW1OMdzw4h+w==
   </data>
  </layer>
  <layer name="rewards" width="80" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt2MENgDAMA8CuR2H/eVAnaJGI0sDdBH45VloDYBdXdgAAAIAFR3YASjuzAwDAA3+5W/YdABDN3qCKnh2AV+gcAAAAIJr/AzDogv35+wMzegLg22z2Om4mtgPA
+   eJzt2MENgDAMA8B+Kew/L+oELRJRGribwC/HSmsA7OLKDgAAALDgyA5AaWd2AAB44C93y74DAKLZG1TRswPwCp0DAAAARPN/AAZdsD9/f2BGTwB8m81exw1pUwCA
   </data>
  </layer>
  <layer name="enemies" width="80" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt2kEKgCAQAEA/7BP6ewQdRNaSIiybuYQFe1G2VTclAABgNsv+zNUYAGCkuiZRqwDAONv/NzfeAwDv4swfmJ0892/mHwDoUdYI6gauKO9FrB3grqgH6mu5pdXHFX0DAACAUnReW2vtM8/2nD3xeuIcqe+oo3hRfH3Xz1oBYjYUfQ==
+   eJzt2kEKgCAQAEA/5BP6/7ci6CCylhRh2cwlLNiLsq26KQEAALNZ9meuxgAAI9U1iVoFAMbZ/r+58R4AeBdn/sDs5Ll/M/8AQI+yRlA3cEV5L2LtAHdFPVBfyy2tPq7oGwAAAJSi89paa595tufsidcT50h9Rx3Fi+Lru37WCsNzCX0=
   </data>
  </layer>
  <layer name="stalks" width="80" height="60">
   <data encoding="base64" compression="zlib">
-   eJztmbERwzAMAz1lypQpU2b+rCAdcCJI/Q/AIw095cTPAwAAAAAAAAAAAHCWV3UDzXlXN9CcT3UDzeH8aXD+NL7VDTQHfzXwVyPJ347vokn+JvWySpK/HZ9fkr9JWa6SlHlSlqskZZ6U5SpJmSdluUpS5klZruLK3PHu9jPUOI0r86RzfBLX3B13lwPX3B13lwPX3Lc+P5e/t+4/l7+37j/81cBfDfzVwF8N/NXAX40J/lZ+d3J5V/nfSeXumOBd5QwT7k3nDLu7YMK96Zxhtxb+arXwV6uFv1ot/NVqTfC38vxN8Lfy/E3wt/L+mOCv87fjbq2O3/xhnz+9hCPF
+   eJztmbERwzAMAz1FypQpU2b/0bKCdMCJIPU/AI809JQTPw8AAAAAAAAAAADAWV7VDTTnXd1Acz7VDTSH86fB+dP4VjfQHPzVwF+NJH87vosm+ZvUyypJ/nZ8fkn+JmW5SlLmSVmukpR5UparJGWelOUqSZknZbmKK3PHu9vPUOM0rsyTzvFJXHN33F0OXHN33F0OXHPf+vxc/t66/1z+3rr/8FcDfzXwVwN/NfBXA381Jvhb+d3J5V3lfyeVu2OCd5UzTLg3nTPs7oIJ96Zzht1a+KvVwl+tFv5qtfBXqzXB38rzN8HfyvM3wd/K+2OCv87fjru1On7zh33+6A0NRQ==
   </data>
  </layer>
  <layer name="goal" width="80" height="60">
   <data encoding="base64" compression="zlib">
-   eJztzjEBAAAMAiCDL/xieAgJSAAAAAAAAABgz7UDAAAAAAAAAAAAADDsAYT7AH0=
+   eJztzjEBAAAMAiCDrX+uxfAQEpAAAAAAAAAAwJ5rBwAAAAAAAAAAAABg2AOQVgA9
   </data>
  </layer>
  <layer name="player" width="80" height="60" visible="0">
   <data encoding="base64" compression="zlib">
-   eJztzjEBAAAMAiCzrX+oxfAQEpAAAAAAAAAAAAAAAAAAAAAAAADLrh1gzgPs6ABD
+   eJztzkERAAAMAiBv/UMvhg8hAQkAAAAAAAAAAAAAAAAAAAAAALDs2gHmPE/oAAM=
   </data>
  </layer>
 </map>
