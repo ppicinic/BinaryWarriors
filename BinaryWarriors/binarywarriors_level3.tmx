@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="80" height="60" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="tiles_mga" tilewidth="16" tileheight="16">
+  <image source="tiles_mga.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="65" name="tiles_mga" tilewidth="16" tileheight="16">
+  <image source="../tiles_mga.png" width="128" height="128"/>
+ </tileset>
+ <layer name="platforms" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztm89OwzAMxvtq0+ABNuBAOTFOwPvfSQ6TohDHn/9ESbp8kqWKtl7zk+s4bjhvS1qdg516P8TEOm2Ln0Ve/N6D7cE+HHzNJC9+n8Fuwb4cfM0kL37fwX6C/Tr4mkkr/9m0+Nm0+Nm0+NlU4vcS7DXYW+U+7hrr+Vk0YvxdhdferYdG5BfF8ciZLX7/RcVVL1YljcyvJCm7a8E8NRu/0eTBD+0dHGXOTeXB71F7B1Ee/B61dxC18p9Ni59NCL8Resujzj0IP+38MOqYNaJiCOH3yPMDp6PkvzQ+qGONL05H4ZfmGOq4hY7CL80x8fg5OW6Ze47CL9cTeJ21tvDkp5lvpfeg40X5WTVb/KH5rDe/kXqUqdB8VuLXYh1Qi7/LNi5HTlT8nZ1/B3l/ezC0xgrFzztXofmP6oHH48vmH6vWuu3O75b9vRe/qBKnlJ+nNHXbjbBUI/KzfpfJx+glT35UnTVC/ULFDRJPnM9cPeOvpSRsLL5G4dfiW6oHw5qP+Lwj8Gs150Zp3tX8/pqQsUrWlBw/Ls7ycx5xqY3B9L5avveUR/2s2cfD1cc1hpa5pRc/tL5Dr+PqY2kMzsAPYYPy4+pjaf6rXZu+y6WxWr5zofxQhp7rEC9+qazxlzPQrn+pfXme83HOhMuJiCz8SvWGJP7yOLwUznkKmR+ktY6GXzrOkj+ufrH0B7R9KEvtV8tnUn5cjVvjl8eaRto+VIvaOUrCD1kfIPws0n4/7M0PXVuN0j/IpVnDefGTrEu1/Dy+xVA+tLGH8ObGWpsrKH8afi33RUh7fLU5Op9LamPV9EO0/Frti6DY7Q4+ojh+Uo2U/5CegdWX97dalF/rPajce7hvshi8+8xV41eTZf9klDXfcWt0LrZSppL8mEvLjxp/9IfErTbfIb0NhEcaf3vBUN9aftT4W/7/JxJzCLv8nZb2TtPzWn4llfoBVqv1GmrXav1Lfk/6fKj9AUzq3dk=
+  </data>
+ </layer>
+ <layer name="enemies" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt2ksOgyAQgGFuCBdxybJ3b0wkpROQh6AC/7cxRUwIkmHKqBQwrs9x3cRvAGsqjQG24hkAkEzivp+vbKo87lzNd2L9bUYfAFjBHgNdjDWiHetK7e9YWyg+2EAbcQR4P/30AABMyz/Pkbll6f8OamFjyXk/nMsBAACgNb/W4behn9T8hs6Mc5+92z4erf7PyuR6cv2At+Ksdz7Ua+cS2kPYVzAyYtT4eIf1mLu+7shryZ3RUklttHX+RzxCjasxcMV1x77x02IumM859XyvrBk8pXbtyXoTwkaeo1heH6pVGxXPn86+i/XvuTpmLa3y1uXZWGU/f6x819veFwW6JgI=
+  </data>
+ </layer>
+ <layer name="rewards" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt2tkRhTAIAEDb8+i/nleAxySjT4Ts/qu5BGGcJshvix4AADC8q++RteH65amB0KVlb7jP+SYbNSYAjCW6LpiDnx+h0pyjzw95OCswhux9sEo5Gq7Iy/lkj6/wJu8LveRFAHroHfBV/vXhiPqojur5p/r8gDE9EdvExzgta6+vCIgDecmx36fXtXe0Jv/o/ZzdU5/pHT8SdAng
+  </data>
+ </layer>
+ <layer name="stalks" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt2rENgDAQQ1GmpKSkpGR+ZojOUmz83wDRhYsTFDgOAAAAAACwy7m7gHCXaJzWPtyicVR9SPOIxlH1IY1q3aj6kIb8zpDfGfI7Q35nyO8M+Z1RrZtXNE6a1nWj0rrvq7Tt++p7jrb8qvPWll/1fNvyq55vW37V8217b2ubLwAAAADAV+u/XCqpd5IufU+9k3Tpe+qdpEvfU5+fS90uOVjlUrdLDla51O2Sg1UudbvkYJXLtxWXHKSa5sDlPXaXaQ5S8++C/M+4nIOpXM5B/McHGrIYtQ==
+  </data>
+ </layer>
+ <layer name="goal" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztzjEBAAAMAiCDL/xieAgJSAAAAAAAAAAAAAAAAAAAAAAAAHZdOzDoAf8wAH0=
+  </data>
+ </layer>
+ <layer name="player" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztzjEBAAAMAiCzrX+oxfAQEpAAAAAAAAAAAAAAAAAAAAAAAADLrh1gzgPs6ABD
+  </data>
+ </layer>
+</map>
