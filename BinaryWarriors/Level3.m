@@ -35,7 +35,7 @@
 
 - (id) init {
     if([self isMemberOfClass:[Level1 class]])
-        world = [CCTMXTiledMap tiledMapWithTMXFile:@"level1.tmx"];
+        world = [CCTMXTiledMap tiledMapWithTMXFile:@"binarywarriors_level3.tmx"];
     
     if((self = [super init])) {
         bubbles = [[NSArray alloc]initWithObjects:

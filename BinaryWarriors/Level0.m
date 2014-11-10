@@ -14,7 +14,7 @@
 #import "Score.h"
 #import "LevelSequence.h"
 
-#define TILED_MAP @"level0.tmx"
+#define TILED_MAP @"binarywarriors_level0.tmx"
 
 #define REWARD_MUSHROOM_LIL 5
 #define REWARD_MUSHROOM_BIG 10
