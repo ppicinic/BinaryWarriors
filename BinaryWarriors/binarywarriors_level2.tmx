@@ -8,7 +8,7 @@
  </tileset>
  <layer name="platforms" width="80" height="60">
   <data encoding="base64" compression="zlib">
-   eJztnGFuwyAMRtnRqpwgaXf/qyyRhoRcEwyfwRB4Ej+aZgFeHTAk2o9blLKd5WXdiIF5ueUPYfnDCP3tlg0ZlOUPQ+LvfZbPWX6btGgsqL+Yw61Nc4ZD6m/NMTycP84h6i81BkjGiB7HkVb+tGg5x0l+r9Df4eIOZ/QngebPy18e1F8Yg/S8xTfc+o2Lwaf7K52bOH/cOPh0f6XE9g92UiT+pDnIkSil+YlFfhPzR2NQc9x+M9f2BfXZen5J7V/d5TQI1KFzaacSj735u6gZi/Ra9PrUo8a9qXmf5+yfaseij8GwH/SzP6btUCsGSvafa8YjB72/tRxqgOzft/LI3c+9UPP5BzLOcPPLxebm8VeDq60t/El/++UPY/nDWP4wtPy1Wnt6f2gO49uLtnnU+DusG/LPqP5y18U129Nj/hcD2VuoQU/xF/PN7Xc59+0wx2XqfYCn5n93+zM5LrX6bOmv9J2Q2HpYshertdftsfRXUi/d89rJce5zrLTe/9NGo967XJo6RH1xY+KT/Um+R9Hwhzw7RevVug9LsYy/cA3V23tVUiz9cfPhaCx/PNb5s7T+Ht3lMNr6QxON514z+7tA34ufwd9dnKF9n8HfRSzOrP3V3Len+eFdrhieuzPn1YqRWeJv+cMo7aOPa59j9bR/0JJYHyXz7xYU7roz+5P0/eXinmr4k8wpm5PNC1og/lJ/bxF/V509rH9H9Of/Z0UPa1/r/K9FnTVzzNr+uO/Q/ljFPIeFPwR/71rEfM7xnOu28he6e5K/1HPS3BIiORe5fk5dqXcXSssfnjK4Yg==
+   eJztnGFuwyAMRtluFuUEabf7X2WJNCTkmmD4DIbAk/jRNAPy6oAh0b7copT9LJt1JwZmc8sfwvKHEfo7LDsyKMsfhsTf+yw/Z/lt0qOxoP5iDvc23RkOqb81x/Bw/jiHqL/UGCAZI3ocR1r506LlHCf5vUJ/Lxd3OKM/CTR/Xv7yoP7CGKTnLT7h1m9cDD7dX+ncxPnjxsGn+ysltn9wkCLxJ81BXolSmp9Y5DcxfzQGNcftN1O3L6jP1vNLav/qLqdBoA6dSzuVeOzN30XNWKR10fqpR417U/M+z9k/1Y5FH4PhddDP/pi2Q60YKNl/rhmPHPT+1nKoAbJ/38ojdz/3Qs3nH8g4w80vF7ubx18Nrr628Cf97Zc/jOUPY/nD0PLXau3p/aE5jO8v2udR4+9l3ZF/RvWXuy6u2Z8e878YyN5CDXqKv5hvbr/LuU+HOS5T7wM8Nf+725/Jcal1zZb+St8Jia2HJXuxWnvdHkt/Je3SPa+DHOc+x0rr/T9tNNq9y6WpQ9QXNyY+2Z/kexQNf8izU7RdrfuwFMv4C9dQvb1XJcXSHzcfjsbyx2OdP0vb79FdDqOtPzTReO41s78L9L34GfzdxRl67TP4u4jFmbW/mvv2ND+8yxXDcw/mvFoxMkv8LX8Ypdfo49rnWD3tH7Qkdo2S+XcPClfvzP4k1765uKca/iRzyu5k84IWiL/U31vE39VmD+vfEf35/1nRw9rXOv9r0WbNHLO2P+479HqsYp7Dwh+Cv3ctYj7neE69YR3fyvWHhO6e5C/1nDS3hEjORerPaSv17kJp+QOjGrhk
   </data>
  </layer>
  <layer name="rewards" width="80" height="60">
@@ -31,7 +31,7 @@
    eJzt20sOgyAQAFCPyEVcdtm7d1MSY6Awav2+l5ioECeKDuJnGABgnfdk/hWsHynr0RN/y3hAXL7uxtky+/t17KP5dGkcANhL5B6kVDY2yolL3wmmnBOchRwFnI2cxF2UxlNbPIs0TruW3F7ztu/NddobAPp5Pw9EtHJEa/wmxwBHcL8DwJPN+8FSWa1uqtSDK/O9D0/QOsdrfYN8D/ek34Pj3Pn6K+3bdF3rn6tanUj8VNhGNMaSNmrFzNtNg//M/uEDr1ketQ==
   </data>
  </layer>
- <layer name="player" width="80" height="60">
+ <layer name="player" width="80" height="60" visible="0">
   <data encoding="base64" compression="zlib">
    eJztzjEBAAAMAiCzrX+oxfAQEpAAAAAAAAAAAAAAAAAAAAAAAADLrh1gzgPs6ABD
   </data>

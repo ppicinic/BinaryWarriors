@@ -8,7 +8,7 @@
  </tileset>
  <layer name="platforms" width="80" height="60">
   <data encoding="base64" compression="zlib">
-   eJztm9FuwyAMRfm49CO6aQ/LtIdt//++oMoaykLjYBsM3COhVqqgcHBtitpbAKXctra0nkTHLAH+JMCfDPiT4dHffWsvW3ttPREGHv31BPzJgD8Z8CejN3/eaktv/rwBfzLgTwb8yRjBH9UUajVrywj+iBbr8OivNJ7gTwb82WJx9p7JnwXwJwP+HpR+tnvyR2tcg587hJ78Edz51rirGdmfFmnc72Mf/mTAn4we/XliRH/7umFZRyz9pfcAHs4aFowYfzVp7c/jmfgKrf0RGnM4y3ucPJjmnPS8l+s3kr8WaPqT1Dn4mxP4k9GLP691utRfq7Oxt73uJf4Ib3PtzZ8mz+71uMzsL/IeHv8hiu2joH9tf9p5Uzpe9EcOzvwdnW9nj7+v8Ofgp6D/7P4iEgfwZ+NvhLtPbn1F/OXh1Ff4y8Opr0cOuHdJVv6u3kNawamvHuMv7vuaaSXn1CO08ptHf3HfvzOt5JyVQyO/efRH0NqsKM1vV15/hrU/6/E18ht3jhrf3/a/jT+rBzXqu9TPrPEX93JlvAf8/Yfcje7vbWufymOm7jj+zuYgmeOS9Ld4pOda48VcG2tumn/J3914LbnHXzzMlvk=
+   eJztm9FuwyAMRaN9W/oR3bSHpdrDtv9/b1BlFWWhcbANBu6RUCtVUDi4NkXtZQK5XNY2155Ew8wT/EmAPxnwJ8Ojv+va3tf2UXsiDDz6awn4kwF/MuBPRmv+vNWW1vx5A/5kwJ8M+JPRgz+qKdRK1pYe/BE11uHRX248wZ8M+LPF4uw9kj8L4E8G/D3I/Wy35I/WuEx+7hBa8kdw51virqZnf1rEcb+NffiTAX8yWvTniR79beuGZR2x9BffA3g4a1jQY/yVpLY/j2fiM9T2R2jM4SjvcfJgnHPi816qX0/+aqDpT1Ln4G9M4E9GK/681ulcf7XOxt72upX4I7zNtTV/mry61+Mysr/A1/T4D1Fot4z+pf1p503peMEfOTjyt3e+HT3+fqang7+M/qP7C0gcwJ+Nvx7uPrn1FfGXhlNf4S8Np77uOeDeJVn5O3sPaQWnvnqMv7DvS6LlnFP30MpvHv2Fff9NtJxzVgqN/ObRH0FrsyI3v515/RXW/qzH18hv3DlqfH/b/jb+qB6UqO9SP6PGX9jLhfEe8PcfcufN31vmOCk+1/atPGbsjuPvaA6SOc5Rf4tHeq41Xsi1oebG+Zf8XY3Xknq8A0G0lvs=
   </data>
  </layer>
  <layer name="rewards" width="80" height="60">
@@ -31,7 +31,7 @@
    eJztzjEBAAAMAiCDL/xieAgJSAAAAAAAAABgz7UDAAAAAAAAAAAAADDsAYT7AH0=
   </data>
  </layer>
- <layer name="player" width="80" height="60">
+ <layer name="player" width="80" height="60" visible="0">
   <data encoding="base64" compression="zlib">
    eJztzjEBAAAMAiCzrX+oxfAQEpAAAAAAAAAAAAAAAAAAAAAAAADLrh1gzgPs6ABD
   </data>

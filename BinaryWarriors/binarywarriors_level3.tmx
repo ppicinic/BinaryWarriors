@@ -8,7 +8,7 @@
  </tileset>
  <layer name="platforms" width="80" height="60">
   <data encoding="base64" compression="zlib">
-   eJztm89OwzAMxvtq0+ABNuBAOTFOwPvfSQ6TohDHn/9ESbp8kqWKtl7zk+s4bjhvS1qdg516P8TEOm2Ln0Ve/N6D7cE+HHzNJC9+n8Fuwb4cfM0kL37fwX6C/Tr4mkkr/9m0+Nm0+Nm0+NlU4vcS7DXYW+U+7hrr+Vk0YvxdhdferYdG5BfF8ciZLX7/RcVVL1YljcyvJCm7a8E8NRu/0eTBD+0dHGXOTeXB71F7B1Ee/B61dxC18p9Ni59NCL8Resujzj0IP+38MOqYNaJiCOH3yPMDp6PkvzQ+qGONL05H4ZfmGOq4hY7CL80x8fg5OW6Ze47CL9cTeJ21tvDkp5lvpfeg40X5WTVb/KH5rDe/kXqUqdB8VuLXYh1Qi7/LNi5HTlT8nZ1/B3l/ezC0xgrFzztXofmP6oHH48vmH6vWuu3O75b9vRe/qBKnlJ+nNHXbjbBUI/KzfpfJx+glT35UnTVC/ULFDRJPnM9cPeOvpSRsLL5G4dfiW6oHw5qP+Lwj8Gs150Zp3tX8/pqQsUrWlBw/Ls7ycx5xqY3B9L5avveUR/2s2cfD1cc1hpa5pRc/tL5Dr+PqY2kMzsAPYYPy4+pjaf6rXZu+y6WxWr5zofxQhp7rEC9+qazxlzPQrn+pfXme83HOhMuJiCz8SvWGJP7yOLwUznkKmR+ktY6GXzrOkj+ufrH0B7R9KEvtV8tnUn5cjVvjl8eaRto+VIvaOUrCD1kfIPws0n4/7M0PXVuN0j/IpVnDefGTrEu1/Dy+xVA+tLGH8ObGWpsrKH8afi33RUh7fLU5Op9LamPV9EO0/Frti6DY7Q4+ojh+Uo2U/5CegdWX97dalF/rPajce7hvshi8+8xV41eTZf9klDXfcWt0LrZSppL8mEvLjxp/9IfErTbfIb0NhEcaf3vBUN9aftT4W/7/JxJzCLv8nZb2TtPzWn4llfoBVqv1GmrXav1Lfk/6fKj9AUzq3dk=
+   eJztms9OwzAMxiveDA0eYAMOlBPjBLz/neQwKTJJ/PlPlKTLJ1mq1tZrfnIdx81pW9LqFOyx90NMrMdt8bPIi997sD3Yh4OvmeTF7zPYNdiXg6+Z5MXvO9hPsF8HXzNp5T+bFj+bFj+bFj+bcvxegr0Ge6vcx11jPT+LRoy/i/Dam/XQiPyiOB6U2eL3X6W46sUqp5H55SRld8mYp2bjN5o8+KG9g6PMuak8+N1r7yDKg9+99g6iVv6zafGzCeE3Qm951LkH4aedH0Yds0alGEL43fP8wOko+S+Nj9Kxxheno/BLc0zpuIWOwi/NMfH4OTlumXuOwo/qCbzOWlt48tPMt9J70PGi/KyaLf7QfNab30g9ylRoPsvxa7EOqMXfeRuXI6dS/J2c/wd5f3swtMZKiZ93rkLzX6kHHo/Pm3+sWuu2G78r+b0Xv6gcp5SfpzR127VgqUbkZ/0uQ8foJU9+pTprhPqlFDdIPHE+qXrGX0tJ2Fh8jcKvxbdUD4Y1H/F5R+DXas6N0ryr9P6akLFK1pQcPy7O6DmPuNTGYHpfLd97yqN+1uzj4erjGkPL3NKLH1rfoddx9bE0Bmfgh7BB+XH1sTT/1a5N3+XcWC3fuVB+KEPPdYgXv1TW+KMMtOvf0r48z/mYMuFyIiILv1y9IYk/GofnzDlPIfODtNbR8EvHmfPH1S+W/oC2D2Wp/Wr5TMqPq3Fr/GisaaTtQ7WonaMk/JD1AcLPIu33w9780LXVKP0DKs0azoufZF2q5efxLabkQxt7CG9urLW5ouRPw6/lvghpj682R9O5pDZWTT9Ey6/VvogSu93BRxTHT6qR8h/SM7D68v5Wi/JrvQeVew/3TRaDN59UNX41WfZPRlnzHbdG52IrZSrJj1RafqXxR39I3GrzHdLbQHik8bdnDPWt5VcaP127PjB+JEJiDmFH32lp7zQ9r+WXU64fYLVar6F2rda/5P+kz4faH1HS3ds=
   </data>
  </layer>
  <layer name="enemies" width="80" height="60">
@@ -31,7 +31,7 @@
    eJztzjEBAAAMAiCDL/xieAgJSAAAAAAAAAAAAAAAAAAAAAAAAHZdOzDoAf8wAH0=
   </data>
  </layer>
- <layer name="player" width="80" height="60">
+ <layer name="player" width="80" height="60" visible="0">
   <data encoding="base64" compression="zlib">
    eJztzjEBAAAMAiCzrX+oxfAQEpAAAAAAAAAAAAAAAAAAAAAAAADLrh1gzgPs6ABD
   </data>
