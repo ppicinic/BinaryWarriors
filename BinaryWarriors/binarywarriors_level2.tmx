@@ -4,7 +4,7 @@
   <image source="tiles_mga.png" width="128" height="128"/>
  </tileset>
  <tileset firstgid="65" name="tiles_mga" tilewidth="16" tileheight="16">
-  <image source="../tiles_mga.png" width="128" height="128"/>
+  <image source="tiles_mga.png" width="128" height="128"/>
  </tileset>
  <layer name="platforms" width="80" height="60">
   <data encoding="base64" compression="zlib">
