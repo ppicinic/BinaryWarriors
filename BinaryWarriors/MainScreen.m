@@ -10,6 +10,7 @@
 #import "OptionsScreen.h"
 #import "QuitScreen.h"
 #import "cocos2d.h"
+#import "InterLevel.h"
 
 @implementation MainScreen : CCLayer
 
@@ -55,7 +56,7 @@
 }
 
 -(void) onNew: (CCMenuItemFont*) button{
-    
+    [[CCDirector sharedDirector] pushScene:[InterLevel scene]];
 }
 
 -(void) onOptions: (CCMenuItemFont*) button{

@@ -36,7 +36,13 @@
         // add the label as a child to this Layer
         [self addChild: label];
         
-        CCMenuItem* toggleButton = [CCMenuItemFont itemWithString: @"Local" target:self selector:@selector(onToggle:)];
+        NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
+        bool toggle = [defaults boolForKey:@"save_config"];
+        NSString* val = @"Local";
+        if(toggle){
+            val = @"Online";
+        }
+        toggleButton = [CCMenuItemFont itemWithString: val target:self selector:@selector(onToggle:)];
         CCMenuItemFont* backButton = [CCMenuItemFont itemWithString:@"Back" target:self selector:@selector(onBack:)];
         
         CCMenu* menu = [CCMenu menuWithItems:toggleButton, backButton, nil];
@@ -51,7 +57,16 @@
 }
 
 -(void) onToggle: (CCMenuItemFont*) button{
-    
+    NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
+    bool toggle = [defaults boolForKey:@"save_config"];
+    toggle = !toggle;
+    [defaults setBool:toggle forKey:@"save_config"];
+    [defaults synchronize];
+    NSString* val = @"Local";
+    if(toggle){
+        val = @"Online";
+    }
+    [toggleButton setString: val];
 }
 
 -(void) onBack: (CCMenuItemFont*) button{

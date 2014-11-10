@@ -35,6 +35,23 @@
         
         // add the label as a child to this Layer
         [self addChild: label];
+        NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
+        int num = [defaults integerForKey:@"difficulty_config"];
+        NSString* choice = @"Current Difficulty: Easy";
+        if(num == 1){
+            choice = @"Current Difficulty: Intermediate";
+        }
+        if(num == 2){
+            choice = @"Current Difficulty: Hard";
+        }
+        
+        currentChoice = (CCLabelTTF*)[CCLabelTTF labelWithString:choice fontName:@"Marker Felt" fontSize:24 dimensions: CGSizeMake(0,100) hAlignment:UITextAlignmentLeft];
+        
+        [currentChoice setColor:ccc3(255, 255, 255)];
+        
+        // position the label on the center of the screen
+        currentChoice.position =  ccp( (screenWidth / 2) + (0)  , screenHeight - screenHeight/2.25 );
+        [self addChild:currentChoice];
         
         CCMenuItem* easyButton = [CCMenuItemFont itemWithString: @"Easy" target:self selector:@selector(onEasy:)];
         CCMenuItemFont* intermediateButton = [CCMenuItemFont itemWithString:@"Intermediate" target:self selector:@selector(onIntermediate:)];
@@ -53,19 +70,39 @@
 }
 
 -(void) onEasy: (CCMenuItemFont*) button{
-    
+    NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
+    [defaults setInteger:0 forKey:@"difficulty_config"];
+    [defaults synchronize];
+    [self onToggle:0];
 }
 
 -(void) onIntermediate: (CCMenuItemFont*) button{
-    
+    NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
+    [defaults setInteger:1 forKey:@"difficulty_config"];
+    [defaults synchronize];
+    [self onToggle:1];
 }
 
 -(void) onHard: (CCMenuItemFont*) button{
-    
+    NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
+    [defaults setInteger:2 forKey:@"difficulty_config"];
+    [defaults synchronize];
+    [self onToggle:2];
 }
 
 -(void) onBack: (CCMenuItemFont*) button{
     [[CCDirector sharedDirector] popScene];
+}
+
+-(void) onToggle: (int) val{
+    NSString* choice = @"Current Difficulty: Easy";
+    if(val == 1){
+        choice = @"Current Difficulty: Intermediate";
+    }
+    if(val == 2){
+        choice = @"Current Difficulty: Hard";
+    }
+    [currentChoice setString:choice];
 }
 
 @end

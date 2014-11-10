@@ -9,7 +9,9 @@
 #import "CCLayer.h"
 #import "cocos2d.h"
 
-@interface SkillScreen : CCLayer
+@interface SkillScreen : CCLayer{
+    CCLabelTTF *currentChoice;
+}
 
 +(CCScene*) scene;
 
@@ -22,5 +24,7 @@
 -(void) onHard: (CCMenuItemFont*) button;
 
 -(void) onBack: (CCMenuItemFont*) button;
+
+-(void) onToggle: (int) val;
 
 @end

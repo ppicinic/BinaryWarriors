@@ -36,7 +36,14 @@
         // add the label as a child to this Layer
         [self addChild: label];
         
-        CCMenuItem* toggleButton = [CCMenuItemFont itemWithString: @"Toggle" target:self selector:@selector(onToggle:)];
+        NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
+        int on = [defaults integerForKey:@"audio_config"];
+        NSString* val = @"On";
+        if(on == 1){
+            val = @"Off";
+        }
+        toggleButton = [CCMenuItemFont itemWithString: val target:self selector:@selector(onToggle:)];
+        
         CCMenuItemFont* backButton = [CCMenuItemFont itemWithString:@"Back" target:self selector:@selector(onBack:)];
         
         CCMenu* menu = [CCMenu menuWithItems:toggleButton, backButton, nil];
@@ -51,6 +58,16 @@
 }
 
 -(void) onToggle: (CCMenuItemFont*) button{
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    int on = [defaults integerForKey:@"audio_config"];
+    on = (on + 1) % 2;
+    [defaults setInteger:on forKey:@"audio_config"];
+    [defaults synchronize];
+    NSString* val = @"On";
+    if(on == 1){
+        val = @"Off";
+    }
+    [toggleButton setString: val];
     
 }
 

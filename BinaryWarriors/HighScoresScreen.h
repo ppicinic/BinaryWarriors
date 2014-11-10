@@ -10,7 +10,9 @@
 #import "CCLayer.h"
 #import "cocos2d.h"
 
-@interface HighScoresScreen : CCLayer
+@interface HighScoresScreen : CCLayer{
+    CCMenuItemFont* toggleButton;
+}
 
 +(CCScene*) scene;
 

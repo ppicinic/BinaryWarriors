@@ -9,7 +9,10 @@
 #import "CCLayer.h"
 #import "cocos2d.h"
 
-@interface AudioScreen : CCLayer
+@interface AudioScreen : CCLayer{
+    CCMenuItemFont* toggleButton;
+
+}
 
 +(CCScene*) scene;
 
