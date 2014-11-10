@@ -8,7 +8,7 @@
  </tileset>
  <layer name="platforms" width="80" height="60">
   <data encoding="base64" compression="zlib">
-   eJztm9FuwyAMRaN9W/oR3bSHpdrDtv9/b1BlFWWhcbANBu6RUCtVUDi4NkXtZQK5XNY2155Ew8wT/EmAPxnwJ8Ojv+va3tf2UXsiDDz6awn4kwF/MuBPRmv+vNWW1vx5A/5kwJ8M+JPRgz+qKdRK1pYe/BE11uHRX248wZ8M+LPF4uw9kj8L4E8G/D3I/Wy35I/WuEx+7hBa8kdw51virqZnf1rEcb+NffiTAX8yWvTniR79beuGZR2x9BffA3g4a1jQY/yVpLY/j2fiM9T2R2jM4SjvcfJgnHPi816qX0/+aqDpT1Ln4G9M4E9GK/681ulcf7XOxt72upX4I7zNtTV/mry61+Mysr/A1/T4D1Fot4z+pf1p503peMEfOTjyt3e+HT3+fqang7+M/qP7C0gcwJ+Nvx7uPrn1FfGXhlNf4S8Np77uOeDeJVn5O3sPaQWnvnqMv7DvS6LlnFP30MpvHv2Fff9NtJxzVgqN/ObRH0FrsyI3v515/RXW/qzH18hv3DlqfH/b/jb+qB6UqO9SP6PGX9jLhfEe8PcfcufN31vmOCk+1/atPGbsjuPvaA6SOc5Rf4tHeq41Xsi1oebG+Zf8XY3Xknq8A0G0lvs=
+   eJztm9FuwyAMRfNtU/oR3bSHpdrDtv9/b1BlFWWhcbANBu6RUCtVUDi4NkXtZQK5XNY2155Ew8wT/EmAPxnwJ8Ojv+va3tf2UXsiDDz6awn4kwF/MuBPRmv+vNWW1vx5A/5kwJ8M+JPRgz+qKdRK1pYe/BE11uHRX248wZ8M+LPF4uw9kj8L4E8G/D3I/Wy35I/WuEx+7hBa8kdw51virqZnf1rEcb+NffiTAX8yWvTniR79beuGZR2x9BffA3g4a1jQY/yVpLY/j2fiM9T2R2jM4SjvcfJgnHPi816qX0/+aqDpT1Ln4G9M4E9GK/681ulcf7XOxt72upX4I7zNtTV/mry61+Mysr/A1/T4D1Fot4z+pf1p503peMEfOTjyt3e+HT3+fqang7+M/qP7C0gcwJ+Nvx7uPrn1FfGXhlNf4S8Np77uOeDeJVn5O3sPaQWnvnqMv7DvS6LlnFP30MpvHv2Fff9NtJxzVgqN/ObRH0FrsyI3v515/RXW/qzH18hv3DlqfH/b/jb+qB6UqO9SP6PGX9jLhfEe8PcfcufN31vmOCk+1/atPGbsjuPvaA6SOc5Rf4tHeq41Xsi1oebG+Zf8XY3Xknq8A960lzs=
   </data>
  </layer>
  <layer name="rewards" width="80" height="60">
