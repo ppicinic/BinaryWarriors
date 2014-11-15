@@ -5,7 +5,7 @@
  </tileset>
  <layer name="platforms" width="80" height="60">
   <data encoding="base64" compression="zlib">
-   eJztnGFuwyAMRslygrTd/a+6RBoSck0wfAZD4En8aJoBeXXAkGjOLUrZz7JZd2JgNrf8ISx/GKG/w7Ijg7L8YUj8vc/yOctvkx6NBfUXc7i36c5wSP2tOYaH88c5RP2lxgDJGNHjONLKnxYt5zjJ7xX6e7m4wxn9SaD58/KXB/UXxiA9b/ENt37jYvDp/krnJs4fNw4+3V8psf2DgxSJP2kO8kqU0vzEIr+J+aMxqDluv5m6fUF9tp5fUvtXdzkNAnXoXNqpxGNv/i5qxiKti9ZPPWrcm5r3ec7+qXYs+hgMr4N+9se0HWrFQMn+c8145KD3t5ZDDZD9+1Yeufu5F2o+/0DGGW5+udjdPP5qcPW1hT/pb7/8YSx/GMsfhpa/VmtP7w/NYXx/0T6PGn8v6478M6q/3HVxzf70mP/FQPYWatBT/MV8c/tdzn07zHGZeh/gqfnf3f5Mjkuta7b0V/pOSGw9LNmL1drr9lj6K2mX7nkd5Dj3OVZa7/9po9HuXS5NHaK+uDHxyf4k36No+EOenaLtat2HpVjGX7iG6u29KimW/rj5cDSWPx7r/Fnafo/uchht/aGJxnOvmf1doO/Fz+DvLs7Qa5/B30Uszqz91dy3p/nhXa4Ynnsw59WKkVnib/nDKL1GH9c+x+pp/6AlsWuUzL97ULh6Z/YnufbNxT3V8CeZU3Ynmxe0QPyl/t4i/q42e1j/jujP/8+KHta+1vlfizZr5pi1/XHfoddjFfMcFv4Q/L1rEfM5x3PqDev4Ua4/JHT3JH+p56S5JURyLlJ/TlupdxdKyx8ZBB7j
+   eJztnG1uwyAMhslygrTbbXb/cy2RhoRcEwyvwRB4Jf9okvLx1IBxUJ1bKtV+2mbdiIG1ucUP0eKHKeR3WDZkUC1+mCT83qd9n/bTpEVjifKLMdzbNGc4SfmtNYYXx49jiPJLzQGSOcJqHvm9udeKn5ZarnGS3yvk93JxhjPyk4jGz4tfnii/0Afpc0uf4vZvnA8+nV/p2sTx4+bBp/MrVSx/cBCT8JPGIK+ElcYnFvFNjB/1Qc15+82U7Q3l2Xp9SeWv7mIaRJShc2mmEo698btU0xdpWbR8ylFjbGqO85z8qbYveh8M+0E/+2vaDLV8oCT/XNMfOdHxrcVQQ0j+vhVHbjz3oprvP5B5hltfLu1uHn41dLW1BT/pb7/4YVr8MC1+mLT4tdp7en5oDOPbi7Z5VP97WTfkX6Pyy90X12xPj/FfTEhuoYZ68r8Yby7f5dwnwxyWqfMAT43/7vIzOSy1+mzJr/RMSGw/LMnFauW6vSz5ldRLc14Huc59jlnr/J+2NOq9i6UpQ5QXNyc+mZ/kPioNfsi7U7RerXFYKkv/C/dQo57PtOTHrYejafHjZR0/S+vvkV2ORtt/aErjvdfM/C6h5+Jn4HfnZ2jfZ+B3KeZn1vxq5u1pfHgXK4bPHsxztXxkFv9b/DCV9tH7tY+xesoftFSsj5L1dw+MK3dmfpK+by7OqQY/yZqyO9m6oCWEX+r7Fv531dnD/ndEfv4/K3rY+1rHfy3qrBlj1ubH3UP7Y+XznCz4IfJj18Lnc67nlBuW8aVcfqiQ3ZP4pd6T5looybNI+Tl1pc4ulNofx1YfHw==
   </data>
  </layer>
  <layer name="rewards" width="80" height="60">
@@ -18,7 +18,7 @@
    eJzt2rENwzAMBVFP4TJlSpfZf7T0aVh8BjqC9yagIx0MybkuSZIkScrdpwcY7nV6gOH8/TLv0wMM95weYDhav9PeZ7R+aetZofVLW88Kbb1p61mhrTdtngptvWnzVGj90uap0HqhzVOh9UKbp/I5PcCPaf3STOuXZlq/NPabsd+M/WbsN2O/GfvN2G/GfjP2m7HfjP1m7DdDu0+TJEkimfZfORrPipmOs+LmPdxxVty8hzueffN9R8ezb77vsN+M/WbsN9Ox/zb327H/Nvfb0d7mfju+Ffi94f++X+EJeQ==
   </data>
  </layer>
- <layer name="goal" width="80" height="60">
+ <layer name="goal" width="80" height="60" visible="0">
   <data encoding="base64" compression="zlib">
    eJztzgEJAAAIA7AHs38uSxxE2BIsAQAA6JjrAAAAAAAAAAAAAAAAAAAAAC8s+VIAPQ==
   </data>
@@ -31,6 +31,11 @@
  <layer name="player" width="80" height="60" visible="0">
   <data encoding="base64" compression="zlib">
    eJztzkERAAAMAiBv/UMvhg8hAQkAAAAAAAAAAAAAAAAAAAAAALDs2gHmPE/oAAM=
+  </data>
+ </layer>
+ <layer name="obstacles" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJzt2jEKwCAMAMA8If9/bZcODi3YYlPRO8goJqBBxQgAAAAAgFp5BrSsCWahRwGz0ZOAHeh1AAAAAABQw5s8K/Lfhx1Y40BLT4D/rLz/rmqrrHfUuf6rnCvvHRn9873JKW/i6fhRDkyVAgE=
   </data>
  </layer>
 </map>

@@ -23,7 +23,7 @@
 	CCScene* scene = [CCScene node];
     
 	// 'layer' is an autorelease object.
-	Level1 *layer = [Level1 node];
+	Level2 *layer = [Level2 node];
 	
 	// add layer as a child to scene
 	[scene addChild: layer z:25];
@@ -34,7 +34,7 @@
 }
 
 - (id) init {
-    if([self isMemberOfClass:[Level1 class]])
+    if([self isMemberOfClass:[Level2 class]])
         world = [CCTMXTiledMap tiledMapWithTMXFile:@"binarywarriors_level2.tmx"];
     
     if((self = [super init])) {
@@ -60,40 +60,26 @@
 - (void) initWorld {
     [super initWorld];
     
-    CGSize size = [world mapSize];
+    obstaclesLayer = [world layerNamed:@"obstacles"];
     
-    stalksLayer = [world layerNamed:@"stalks"];
+}
+
+-(void) update:(ccTime)dt {
+    if(caught || complete)
+        return;
     
-    enemiesLayer = [world layerNamed:@"enemies"];
     
-    [enemiesLayer setVisible:false];
-    
-    enemies = [[NSMutableArray alloc] init];
-    
-    for(int tilex = 0; tilex < size.width; tilex++) {
-        for(int tiley = 0; tiley < size.height; tiley++) {
-            int gid = [enemiesLayer tileGIDAt:ccp(tilex,tiley)];
-            
-            //            CGPoint here = [Helper tileToWorldX:tilex andY:tiley];
-            CGPoint here = [Helper tile:ccp(tilex,tiley) toWorld:world];
-            
-            if(gid == RID_GORGON) {
-                Gorgon* gorgon = (Gorgon*) [[Gorgon alloc] initAt:here of:self];
-                
-                [self addChild:gorgon z:90];
-                
-                [enemies addObject:gorgon];
-            }
-            
-            else if(gid == RID_HARPIE) {
-                Harpie* flya = (Harpie*) [[Harpie alloc] initAt:here of:self];
-                
-                [self addChild:flya z:90];
-                
-                [enemies addObject:flya];
-            }
-        }
+    [super update:dt];
+    CGPoint point = [grace getPosition];
+    int gid = [obstaclesLayer tileGIDAt:point];
+    if(gid != 0){
+        caught = true;
     }
+    if(caught){
+        [self handlePCCaught];
+    }
+    
+    
 }
 
 @end

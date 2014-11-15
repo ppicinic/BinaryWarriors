@@ -9,7 +9,9 @@
 #import <Foundation/Foundation.h>
 #import "Level1.h"
 
-@interface Level2 : Level1
+@interface Level2 : Level1 {
+    CCTMXLayer* obstaclesLayer;
+}
 
 /** Gets a scene for this layer */
 + (CCScene *) scene;
@@ -21,7 +23,7 @@
 - (void) initWorld;
 
 /** Updates the level */
-//- (void) update:(ccTime)dt;
+- (void) update:(ccTime)dt;
 
 /** Handles PC caught by enemy */
 //- (void) handlePCCaught;

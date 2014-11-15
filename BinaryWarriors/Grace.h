@@ -67,4 +67,6 @@
 
 /** Resets Grace */
 - (void) reset;
+
+-(CGPoint) getPosition;
 @end

@@ -292,6 +292,11 @@
 	return TRUE;
 }
 
+- (CGPoint) getPosition{
+    CGPoint tile = [Helper world:level.world toTile:ccp(self.x,self.y)];
+    return tile;
+}
+
 - (void) reset {
     self.position = initPosition;
     

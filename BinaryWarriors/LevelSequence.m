@@ -19,9 +19,9 @@ static int levelno = 0;
 + (void) initialize {
 	levels =
         [[NSMutableArray alloc] initWithObjects:
-         [Level3 class],
          [Level2 class],
-         [Level0 class],
+         [Level3 class],
+         //[Level0 class],
          [Level1 class],
          nil];
 }
