@@ -84,11 +84,11 @@ static GameController* gameController = nil;
     bool gotInput = avx != 0 || avy != 0;
     
     if(ready && gotInput) {
-        ready = FALSE;
+        //ready = FALSE;
     }
     
     else if(!ready && !gotInput) {
-        ready = TRUE;
+        //ready = TRUE;
     }
     
     return dir;
