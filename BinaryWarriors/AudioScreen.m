@@ -8,6 +8,10 @@
 
 #import "AudioScreen.h"
 #import "cocos2d.h"
+#import "Options.h"
+#import "SimpleAudioEngine.h"
+
+#define THEME_SONG @"4225775_The_River_War_Original_Mix.mp3"
 
 @implementation AudioScreen : CCLayer
 
@@ -67,6 +71,12 @@
     if(on == 1){
         val = @"Off";
     }
+    if(on == 0){
+        [[SimpleAudioEngine sharedEngine] playBackgroundMusic:THEME_SONG loop:true];
+    }else{
+        [[SimpleAudioEngine sharedEngine] stopBackgroundMusic];
+    }
+    [Options musicOn];
     [toggleButton setString: val];
     
 }

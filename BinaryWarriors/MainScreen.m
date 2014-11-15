@@ -11,6 +11,10 @@
 #import "QuitScreen.h"
 #import "cocos2d.h"
 #import "InterLevel.h"
+#import "Options.h"
+#import "SimpleAudioEngine.h"
+
+#define THEME_SONG @"4225775_The_River_War_Original_Mix.mp3"
 
 @implementation MainScreen : CCLayer
 
@@ -38,7 +42,9 @@
         
         // add the label as a child to this Layer
         [self addChild: label];
-        
+        if([Options musicOn]){
+            [[SimpleAudioEngine sharedEngine] playBackgroundMusic:THEME_SONG loop:true];
+        }
         CCMenuItem* newButton = [CCMenuItemFont itemWithString: @"New" target:self selector:@selector(onNew:)];
         //CCMenuItemFont* resumeButton = [CCMenuItemFont itemWithString:@"Resume" target:self selector:@selector(onResume:)];
         CCMenuItemFont* optionsButton = [CCMenuItemFont itemWithString:@"Options" target:self selector:@selector(onOptions:)];
