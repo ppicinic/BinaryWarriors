@@ -60,40 +60,6 @@
 - (void) initWorld {
     [super initWorld];
     
-    CGSize size = [world mapSize];
-    
-    stalksLayer = [world layerNamed:@"stalks"];
-    
-    enemiesLayer = [world layerNamed:@"enemies"];
-    
-    [enemiesLayer setVisible:false];
-    
-    enemies = [[NSMutableArray alloc] init];
-    
-    for(int tilex = 0; tilex < size.width; tilex++) {
-        for(int tiley = 0; tiley < size.height; tiley++) {
-            int gid = [enemiesLayer tileGIDAt:ccp(tilex,tiley)];
-            
-            //            CGPoint here = [Helper tileToWorldX:tilex andY:tiley];
-            CGPoint here = [Helper tile:ccp(tilex,tiley) toWorld:world];
-            
-            if(gid == RID_GORGON) {
-                Gorgon* gorgon = (Gorgon*) [[Gorgon alloc] initAt:here of:self];
-                
-                [self addChild:gorgon z:90];
-                
-                [enemies addObject:gorgon];
-            }
-            
-            else if(gid == RID_HARPIE) {
-                Harpie* flya = (Harpie*) [[Harpie alloc] initAt:here of:self];
-                
-                [self addChild:flya z:90];
-                
-                [enemies addObject:flya];
-            }
-        }
-    }
 }
 
 
