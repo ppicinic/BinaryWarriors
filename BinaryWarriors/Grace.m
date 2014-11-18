@@ -304,4 +304,12 @@
     
     self.frameNumber = FACING_RIGHT;
 }
+
+- (void) foundWeapon {
+    weapon = true;
+}
+
+- (BOOL) hasWeapon {
+    return true;
+}
 @end

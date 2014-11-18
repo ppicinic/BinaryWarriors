@@ -21,6 +21,7 @@
 /** Grace as the PC */
 @interface Grace : Entity {
     enum direction input;
+    bool weapon;
     double vx;
     double vy;
     CGPoint initPosition;
@@ -67,6 +68,10 @@
 
 /** Resets Grace */
 - (void) reset;
+
+- (BOOL) hasWeapon;
+
+- (void) foundWeapon;
 
 -(CGPoint) getPosition;
 @end

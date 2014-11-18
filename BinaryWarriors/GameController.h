@@ -26,7 +26,8 @@ enum direction {
 /** Game controller layer */
 @interface GameController : CCLayer {
     SneakyJoystick *leftJoystick; 
-    SneakyButton *quitButton;  
+    SneakyButton *quitButton;
+    SneakyButton *shootButton;
     CCLabelTTF *scoreLabel;
     Lives* lives;
     Score* score;

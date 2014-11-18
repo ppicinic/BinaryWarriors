@@ -210,6 +210,8 @@
 		F853C0FE1A02BABA0057CEAA /* yummy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F853C0F11A02BABA0057CEAA /* yummy.mp3 */; };
 		F853C0FF1A02BABA0057CEAA /* yummy2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F853C0F21A02BABA0057CEAA /* yummy2.mp3 */; };
 		F853C1011A02BB260057CEAA /* 4225775_The_River_War_Original_Mix.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F853C1001A02BB260057CEAA /* 4225775_The_River_War_Original_Mix.mp3 */; };
+		F881C1A51A1BF55C00A8578B /* SneakyShoot.m in Sources */ = {isa = PBXBuildFile; fileRef = F881C1A41A1BF55C00A8578B /* SneakyShoot.m */; };
+		F881C1A81A1BF8AF00A8578B /* Bullet.m in Sources */ = {isa = PBXBuildFile; fileRef = F881C1A71A1BF8AF00A8578B /* Bullet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -597,6 +599,10 @@
 		F853C0F11A02BABA0057CEAA /* yummy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yummy.mp3; sourceTree = "<group>"; };
 		F853C0F21A02BABA0057CEAA /* yummy2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yummy2.mp3; sourceTree = "<group>"; };
 		F853C1001A02BB260057CEAA /* 4225775_The_River_War_Original_Mix.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 4225775_The_River_War_Original_Mix.mp3; sourceTree = "<group>"; };
+		F881C1A31A1BF55C00A8578B /* SneakyShoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SneakyShoot.h; sourceTree = "<group>"; };
+		F881C1A41A1BF55C00A8578B /* SneakyShoot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SneakyShoot.m; sourceTree = "<group>"; };
+		F881C1A61A1BF8AF00A8578B /* Bullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bullet.h; sourceTree = "<group>"; };
+		F881C1A71A1BF8AF00A8578B /* Bullet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bullet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1109,6 +1115,8 @@
 				F853B5391A02B7930057CEAA /* Grace.m */,
 				F853B53B1A02B7930057CEAA /* Harpie.h */,
 				F853B53C1A02B7930057CEAA /* Harpie.m */,
+				F881C1A61A1BF8AF00A8578B /* Bullet.h */,
+				F881C1A71A1BF8AF00A8578B /* Bullet.m */,
 			);
 			name = Entities;
 			sourceTree = "<group>";
@@ -1198,6 +1206,8 @@
 				F853C0C41A02BA060057CEAA /* SneakyButtonSkinnedBase.h */,
 				F853C0C51A02BA060057CEAA /* SneakyButtonSkinnedBase.m */,
 				F853C0C61A02BA060057CEAA /* SneakyJoystick.h */,
+				F881C1A31A1BF55C00A8578B /* SneakyShoot.h */,
+				F881C1A41A1BF55C00A8578B /* SneakyShoot.m */,
 				F853C0C71A02BA060057CEAA /* SneakyJoystick.m */,
 				F853C0C81A02BA060057CEAA /* SneakyJoystickSkinnedBase.h */,
 				F853C0C91A02BA060057CEAA /* SneakyJoystickSkinnedBase.m */,
@@ -1370,6 +1380,7 @@
 				4AF4655219E0F7CB007DE418 /* CCTransitionPageTurn.m in Sources */,
 				4AF4648319E0F7CA007DE418 /* CCActionCatmullRom.m in Sources */,
 				4AF464FA19E0F7CB007DE418 /* CCParticleSystem.m in Sources */,
+				F881C1A81A1BF8AF00A8578B /* Bullet.m in Sources */,
 				4AF4654F19E0F7CB007DE418 /* CCTransition.m in Sources */,
 				4AF464F719E0F7CB007DE418 /* CCParticleExamples.m in Sources */,
 				4AF464F419E0F7CB007DE418 /* CCParticleBatchNode.m in Sources */,
@@ -1436,6 +1447,7 @@
 				F853C0CC1A02BA060057CEAA /* SneakyJoystick.m in Sources */,
 				4AF464B019E0F7CA007DE418 /* CCClippingNode.m in Sources */,
 				4AF4653419E0F7CB007DE418 /* CCTexture2D.m in Sources */,
+				F881C1A51A1BF55C00A8578B /* SneakyShoot.m in Sources */,
 				4AF4654919E0F7CB007DE418 /* CCTMXTiledMap.m in Sources */,
 				F853B53F1A02B7930057CEAA /* Entity.m in Sources */,
 				4AF4650A19E0F7CB007DE418 /* CCRenderTexture.m in Sources */,

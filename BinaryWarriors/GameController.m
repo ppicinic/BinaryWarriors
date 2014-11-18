@@ -53,6 +53,10 @@ static GameController* gameController = nil;
     return quitButton.active;
 }
 
+- (bool) shootPressed {
+    return shootButton.active;
+}
+
 
 - (enum direction) applyJoystick;
 {
@@ -134,6 +138,7 @@ static GameController* gameController = nil;
     joystickBasePosition = ccp(screenSize.width*0.07f, screenSize.height*0.11f);
     
     quitButtonPosition = ccp(screenSize.width-16.0f, screenSize.height-16.0f);
+    CGPoint shootButtonPosition = ccp(screenSize.width*0.07f, screenSize.height*0.15f);
     //    }
     
     SneakyJoystickSkinnedBase *joystickBase = [[[SneakyJoystickSkinnedBase alloc] init] autorelease];
@@ -149,6 +154,16 @@ static GameController* gameController = nil;
     leftJoystick = [joystickBase.joystick retain];
     
     [self addChild:joystickBase];
+    
+    SneakyButtonSkinnedBase* shootButtonbase = [[[SneakyButtonSkinnedBase alloc] init] autorelease];
+    shootButtonbase.position = shootButtonPosition;
+    shootButtonbase.defaultSprite = [CCSprite spriteWithFile:@"dpadDown2.png"];
+    shootButtonbase.activatedSprite = [CCSprite spriteWithFile:@"dpadDown2.png"];
+    shootButtonbase.pressSprite = [CCSprite spriteWithFile:@"dpadDown2.png"];
+    shootButtonbase.button = [[SneakyButton alloc]initWithRect:joystickBaseDimensions];
+    shootButton = [shootButtonbase.button retain];
+    shootButton.isToggleable = NO;
+    [self addChild:shootButtonbase];
     
     SneakyButtonSkinnedBase *quitButtonBase = [[[SneakyButtonSkinnedBase alloc] init] autorelease];
     
