@@ -31,7 +31,7 @@
 + (void) goLevel;
 
 /** Goes to the game over screen */
-+ (void) goOver;
++ (void) goOver: (int) score;
 
 /** Quits the game */
 + (void) goQuit;

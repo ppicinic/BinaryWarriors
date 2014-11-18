@@ -12,6 +12,7 @@
 #import "InterLevel.h"
 #import "LevelSequence.h"
 #import "SoundEffects.h"
+#import "HighScoreScreen.h"
 
 @implementation Helper
 
@@ -29,7 +30,7 @@
     }
 }
 
-+ (void) goOver {
++ (void) goOver: (int) score {
     [SoundEffects disappoint];
     
     [[CCDirector sharedDirector] replaceScene:[CCTransitionFade transitionWithDuration:2.0 scene:[GameOverScreen scene]]];

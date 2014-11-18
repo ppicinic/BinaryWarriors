@@ -24,4 +24,5 @@
 
 /** Updates the score */
 - (void) update;
+
 @end

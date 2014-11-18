@@ -40,4 +40,5 @@ static int value;
     
     [label setString:text];
 }
+
 @end
