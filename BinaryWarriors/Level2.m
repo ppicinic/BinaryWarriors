@@ -65,11 +65,12 @@
 }
 
 -(void) update:(ccTime)dt {
+    [super update:dt];
     if(caught || complete)
         return;
     
     
-    [super update:dt];
+    
     CGPoint point = [grace getPosition];
     int gid = [obstaclesLayer tileGIDAt:point];
     if(gid != 0){

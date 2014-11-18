@@ -23,7 +23,7 @@
     CCScene* scene = [CCScene node];
     
     // 'layer' is an autorelease object.
-    Level1 *layer = [Level1 node];
+    Level3 *layer = [Level3 node];
     
     // add layer as a child to scene
     [scene addChild: layer z:25];
@@ -34,7 +34,7 @@
 }
 
 - (id) init {
-    if([self isMemberOfClass:[Level1 class]])
+    if([self isMemberOfClass:[Level3 class]])
         world = [CCTMXTiledMap tiledMapWithTMXFile:@"binarywarriors_level3.tmx"];
     
     if((self = [super init])) {

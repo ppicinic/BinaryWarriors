@@ -144,7 +144,7 @@
 - (void) caughtReset {
 	// Unfreeze everybody only if there are more lives
 	if([Lives remaining] == 0) {
-		[Helper goOver];
+		[Helper goOver: [Score score]];
 		
 		return;
 	}

@@ -8,6 +8,8 @@
 
 #import "GameOverScreen.h"
 #import "cocos2d.h"
+#import "Score.h"
+#import "HighScoreScreen.h"
 
 @implementation GameOverScreen : CCLayer
 
@@ -49,7 +51,26 @@
 }
 
 -(void) onContinue:(CCMenuItemFont *)button{
-    [[CCDirector sharedDirector] popScene];
+    NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
+    int third = [defaults integerForKey:@"third_place"];
+    int score = [Score score];
+    if(score > third){
+        [defaults setInteger:score forKey:@"third_place"];
+        int second = [defaults integerForKey:@"second_place"];
+        if(score > second){
+            [defaults setInteger:second forKey:@"third_place"];
+            [defaults setInteger:score forKey:@"second_place"];
+            int first = [defaults integerForKey:@"first_place"];
+            if(score > first){
+                [defaults setInteger:first forKey:@"second_place"];
+                [defaults setInteger:score forKey:@"first_place"];
+            }
+        }
+        [defaults synchronize];
+        [[CCDirector sharedDirector] replaceScene:[CCTransitionFade transitionWithDuration:2.0 scene:[HighScoreScreen scene]]];
+    }else{
+        [[CCDirector sharedDirector] popScene];
+    }
 }
 
 @end
