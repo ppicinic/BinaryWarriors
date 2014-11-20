@@ -33,4 +33,9 @@
    eJztzkERAAAMAiBv/UMvhg8hAQkAAAAAAAAAAAAAAAAAAAAAALDs2gHmPE/oAAM=
   </data>
  </layer>
+ <layer name="gun" width="80" height="60">
+  <data encoding="base64" compression="zlib">
+   eJztzjEBAAAIwKA1s38rY3gICSgAAAAAAAAAAAAAAAAAAAAAAICa6wBvLOOUAEA=
+  </data>
+ </layer>
 </map>

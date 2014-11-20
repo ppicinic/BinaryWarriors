@@ -12,6 +12,9 @@
 #import "Harpie.h"
 #import "SoundEffects.h"
 #import "Lives.h"
+#import "GameController.h"
+#import "Bullet.h"
+
 
 #define REWARD_CRUSH_MONSTA 20
 
@@ -40,6 +43,7 @@
     if((self = [super init])) {
         bubbles = [[NSArray alloc]initWithObjects:
                    @"Caught!",@"Gotcha!",@"Take that!",@"Pow!",@"Ha, ha!",nil];
+        gunLayer = [world layerNamed:@"gun"];
         
         feedback = [CCLabelTTF labelWithString:@"" fontName:@"Marker Felt" fontSize:24];
         
@@ -52,6 +56,7 @@
         // If you forget to add the feedback to the world and try to position
         // it later, cocos2d crashes
         [self addChild:feedback z:95];
+        bullets = [[NSMutableArray alloc] init];
     }
     
     return self;
@@ -60,6 +65,36 @@
 - (void) initWorld {
     [super initWorld];
     
+}
+
+- (void) update: (ccTime)dt{
+    [super update: dt];
+    if(caught || complete){
+        return;
+    }
+    if([gunLayer tileGIDAt:[grace getPosition]] != 0){
+        [grace foundWeapon];
+        [gunLayer removeTileAt:[grace getPosition]];
+    }
+    if([grace hasWeapon] && [[GameController instance] shootPressed] ){
+        CGPoint here = [grace getPosition];
+        int direction = [grace getDirection];
+        CGPoint to = [Helper tile:here toWorld:world];
+        to.x += (direction * 16);
+        to.y += 16;
+        Bullet* bullet = [[Bullet alloc] initAt:to of:self direct:direction enem:enemies];
+        [self addChild:bullet z:90];
+        [bullets addObject:bullet];
+    }
+    for(Bullet* bullet in bullets){
+        [bullet update];
+    }
+}
+
+-(void) destroyBullet:(id)bullet{
+    [self removeChild:bullet];
+    [bullet destroy];
+    //[bullets removeObject:bullet];
 }
 
 

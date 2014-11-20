@@ -9,7 +9,10 @@
 #import <Foundation/Foundation.h>
 #import "Level2.h"
 
-@interface Level3 : Level2
+@interface Level3 : Level2{
+    NSMutableArray* bullets;
+    CCTMXLayer* gunLayer;
+}
 
 /** Gets a scene for this layer */
 + (CCScene *) scene;
@@ -19,4 +22,9 @@
 
 /** Initializes the world */
 - (void) initWorld;
+
+- (void) update: (ccTime)dt;
+
+-(void) destroyBullet: (id) bullet;
+
 @end

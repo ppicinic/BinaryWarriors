@@ -7,6 +7,7 @@
 //
 
 #import "Entity.h"
+//#import "Bullet.h"
 
 /** States of an enemy */
 enum state {
@@ -39,4 +40,5 @@ enum state {
 /** handles a collision event */
 -(void) collisionEvent;
 
+-(bool) collidesWithBullet: (Entity*) bullet;
 @end

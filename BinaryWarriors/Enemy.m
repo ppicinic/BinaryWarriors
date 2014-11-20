@@ -32,6 +32,18 @@
 	}
 }
 
+- (bool) collidesWithBullet:(Entity *)bullet{
+    if(state == STATE_ALIVE){
+        if(bullet.x > self.x && bullet.x < self.x + 32){
+            if(bullet.y > self.y && bullet.y < self.y + 32){
+                state = STATE_DYING;
+                return true;
+            }
+        }
+    }
+    return false;
+}
+
 -(bool) collidesWithLevel {
 	return [level collidesWith: self];
 }

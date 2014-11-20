@@ -73,5 +73,7 @@
 
 - (void) foundWeapon;
 
+- (int) getDirection;
+
 -(CGPoint) getPosition;
 @end

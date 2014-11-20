@@ -138,7 +138,7 @@ static GameController* gameController = nil;
     joystickBasePosition = ccp(screenSize.width*0.07f, screenSize.height*0.11f);
     
     quitButtonPosition = ccp(screenSize.width-16.0f, screenSize.height-16.0f);
-    CGPoint shootButtonPosition = ccp(screenSize.width*0.07f, screenSize.height*0.15f);
+    CGPoint shootButtonPosition = ccp(screenSize.width*0.07f, screenSize.height*0.23f);
     //    }
     
     SneakyJoystickSkinnedBase *joystickBase = [[[SneakyJoystickSkinnedBase alloc] init] autorelease];

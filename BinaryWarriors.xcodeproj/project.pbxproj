@@ -158,6 +158,7 @@
 		F8148BC31A0BFEBA00C4E9CC /* tilemap.png in Resources */ = {isa = PBXBuildFile; fileRef = F8148BBD1A0BFEBA00C4E9CC /* tilemap.png */; };
 		F8148BC71A0C03AF00C4E9CC /* binarywarriors_level0.tmx in Resources */ = {isa = PBXBuildFile; fileRef = F8148BC61A0C03AF00C4E9CC /* binarywarriors_level0.tmx */; };
 		F8148BCA1A0C0CA700C4E9CC /* Level2.m in Sources */ = {isa = PBXBuildFile; fileRef = F8148BC91A0C0CA700C4E9CC /* Level2.m */; };
+		F84FE23D1A1D634700E2DEB6 /* bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = F84FE23C1A1D634700E2DEB6 /* bullet.png */; };
 		F853B53E1A02B7930057CEAA /* Enemy.m in Sources */ = {isa = PBXBuildFile; fileRef = F853B5301A02B7930057CEAA /* Enemy.m */; };
 		F853B53F1A02B7930057CEAA /* Entity.m in Sources */ = {isa = PBXBuildFile; fileRef = F853B5321A02B7930057CEAA /* Entity.m */; };
 		F853B5401A02B7930057CEAA /* Goal.m in Sources */ = {isa = PBXBuildFile; fileRef = F853B5341A02B7930057CEAA /* Goal.m */; };
@@ -524,6 +525,7 @@
 		F8148BC61A0C03AF00C4E9CC /* binarywarriors_level0.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = binarywarriors_level0.tmx; sourceTree = "<group>"; };
 		F8148BC81A0C0CA700C4E9CC /* Level2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level2.h; sourceTree = "<group>"; };
 		F8148BC91A0C0CA700C4E9CC /* Level2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level2.m; sourceTree = "<group>"; };
+		F84FE23C1A1D634700E2DEB6 /* bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bullet.png; sourceTree = "<group>"; };
 		F853B52F1A02B7930057CEAA /* Enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enemy.h; sourceTree = "<group>"; };
 		F853B5301A02B7930057CEAA /* Enemy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Enemy.m; sourceTree = "<group>"; };
 		F853B5311A02B7930057CEAA /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
@@ -1161,6 +1163,7 @@
 		F853B5281A02B6C50057CEAA /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				F84FE23C1A1D634700E2DEB6 /* bullet.png */,
 				F853C0D41A02BA8D0057CEAA /* dpadDown2.png */,
 				F853C0D51A02BA8D0057CEAA /* dpadDown3.png */,
 				F853C0D61A02BA8D0057CEAA /* goal_2.png */,
@@ -1321,6 +1324,7 @@
 				F8148BBE1A0BFEBA00C4E9CC /* backgrounds.png in Resources */,
 				4AF4646719E0F7CA007DE418 /* Default-568h@2x.png in Resources */,
 				F853C0E21A02BA8D0057CEAA /* red_health_bar2.png in Resources */,
+				F84FE23D1A1D634700E2DEB6 /* bullet.png in Resources */,
 				F853C0FB1A02BABA0057CEAA /* you-can-do-it.mp3 in Resources */,
 				F8148BC71A0C03AF00C4E9CC /* binarywarriors_level0.tmx in Resources */,
 				F853C0F71A02BABA0057CEAA /* evil-laf.mp3 in Resources */,

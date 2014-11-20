@@ -57,4 +57,6 @@ enum direction {
 
 /* Returns true if the quit button pressed */
 - (bool) quitPressed;
+
+-(bool) shootPressed;
 @end

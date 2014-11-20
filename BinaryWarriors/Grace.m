@@ -309,7 +309,17 @@
     weapon = true;
 }
 
+-(int) getDirection {
+    if(self.frameNumber == FACING_LEFT){
+        return -1;
+    }
+    if(self.frameNumber == FACING_RIGHT){
+        return 1;
+    }
+    return 0;
+}
+
 - (BOOL) hasWeapon {
-    return true;
+    return weapon;
 }
 @end
