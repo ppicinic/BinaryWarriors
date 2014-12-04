@@ -10,7 +10,7 @@
  </layer>
  <layer name="platforms" width="80" height="60">
   <data encoding="base64" compression="zlib">
-   eJztnFFOwzAMhi3UHWKgSVC0h21X4IGjcRSOsqMRa7UwoWvSOE6cLr8UpWI0Tb86tuNO2wHA0bWDQk/HKedbnJPf71wboCtVA3R+EnV+MnV+Mlnkt3ft2bWX2hOJkEV+KBfXrrXnECOr/FpR5ydT5ydTa/ysxZbW+KEsxZYW+VlS5yeTJj/yVfeaFR8mkSa/N9dG194XjnPIf04ln8tW1i9yG6a+pCT8tHIJGhdWjj9UiMtbsT9UjbxmS/xC0lgvMfys5fwS5bbRR7I/Dfn8XgztjUoqdY35/ErH/zWiexxBx5+krO05fsdcE1LQBeB7uPWvof/V8tsf7JjzO7m5UQ5/yHzNnCrtr/dTP8J/2+f8QvtV3gCq7pmuBS/3R/7ecy7+xuxbc+9h16jX/7ajLfLz44Zm/l+q/reFvcuctO0PfZUlf5Vbtdevdk6srdr8ULlqn/f83r3Pl8agZzrCsg+ywA9VM6fztSZPy8lPEuda9ZFW7K9VdX4ytcLPapxO5VcjN+Zx+lLomiFJ7K9GbmwtztRcv7XfS3GfkOoXavHj7GquRczvdlNLqcWV5uf7TSk7qR9GfsQgxG9uvZTkx6+fs/56urWv1HOJQehZ4rsX9L/83Usr+YumJAw6Px1+vHZhJVddq9j4irWL1PrF1u0vJr5K8thH4BcbX7lic1MtfnN1SIDyOd+a+OorxiYl/JbqxZSf8Aag873nkH/T3Gdq8cPnfoZf33Oe/o59TtuT7h+k0uKXY/wYpfo3LuKfotT7czZ0nepInxrjx0ri30ixc8yxf5v7jtFSjCoR30PXCNnXmjn6flT7/iS5aUj4LEcI30PE52bzZ63YR+xi+IXmIM2f+blPKYMsiH6nJ6c4u4nfov2E5iCZI7LT+I0kjd9Kwp5qX9z/kv3sle4h1P8AUHdZ8Q==
+   eJztnFFOwzAMhi3UHWKgSVC0h21X4IGjcRSOsqMRa40woWvS2E6cLr8UpWI0Tb86tuNN3QHA0bWDQu+Pc863OKew37k2QFeuBuj8OOr8eOr8eLLIb+/as2svtSeSIIv8UC6uXWvPIUVW+bWizo+nzo+n1vhZiy2t8UNZii0t8rOkzo8nTX7eV91rVnwYR5r83lwbXXtfOJZQ+JxKPpetrF/kNkx9SXH4aeUSflxYOf5QIS5vxf5QNfKaLfGLSWO9pPCzlvNzJG2jj2R/Ggr5vRjaG5VU7hoL+ZWO/2vk73EEHX+Ss7bn+B2lJqSgC8D3cOtfY/+r5bc/yDHld3Jz8zn8Qfiakirtr/dTP8J/26f8YvtV2gCq7pmuBS/3R+Hecy7+puxbpfewa9Trf9vRFvmFcUMz/y9V/9vC3mVO2vaHvsqSv5JW7fWrnRNrqzY/lFTt857fu/f50hj+mY6w7IMs8EPVzOlCrcnTJPlx4lyrPtKK/bWqzo+nVvhZjdO5/GrkxjROXwpdMyaO/dXIja3FmZrrt/b3UtQn5PqFWvwou5prEfO73dRyanGl+YV+k8uO64eRn2cQ4ze3Xkryo9eXrL+ebu0r91zPIPYs8bsX9L/0u5dW8hdNcRh0fjr8aO3CSq66VqnxFWsXufWLrdtfSnzl5LGPwC81vlKl5qZa/ObqkADlc7418TVUik1y+C3Vi31+QhuAzu+eY/5Nc5+pxQ+f+xl+fc95+jv2krbH3T9wpcVPYvwU5fo3Ks8/R7n352zoOtWRPjXGTxXHv3mlzlFi/zb3G6OlGFUivseuEbOvNXMM/aj2/XFy05jwWY4Qv4eEz83mz1qxz7NL4RebAzd/puc+5QyyIP+eHklRdhO/Rfuh7xuSniOy03hHksa7krD3tS/qf7397JXuIdb/AItvWhY=
   </data>
  </layer>
  <layer name="rewards" width="80" height="60">
@@ -20,7 +20,7 @@
  </layer>
  <layer name="enemies" width="80" height="60">
   <data encoding="base64" compression="zlib">
-   eJzt2lEKQEAQAFAXcgT3v5YUtY3BRmR570eoKa1ds2O6DgAA+JphPvbhHOBt4vrUH9wH2rY15811AHje9P2N+fdyHViL9baM/Ba4i5o/8HXWuX8z/gBAjTJHkDdwRvlfxLsDXJX1QLW2tuz1brb2LAAAADwrq9dGW/vMoz1nTbyaOHuyftAYL4uv7/peI+wZCvg=
+   eJzt2m0KgCAMANAu5BG6/7UiKIilKUJR9t6fvmB/wrnJpgkAABjNvF1TeAZ4m5ifUuU78G2lNW+tA8Dz1v031t/7e+AsnrflqG+BuzjzB0Ynz/2b/w8A1FzNlqgdaDUX7gF65PLI13KL/RUAAIBex76xNFNZ6jNrPWdLvJY4V3LzoDFeLr6563stCx8Kng==
   </data>
  </layer>
  <layer name="stalks" width="80" height="60">

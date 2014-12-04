@@ -5,7 +5,7 @@
  </tileset>
  <layer name="platforms" width="100" height="60">
   <data encoding="base64" compression="zlib">
-   eJztmwFuhCAQRdl6Am17m97/XN2kJSETQcAZ5oP/JZO4G6ODDwbR3S2E8MWAiO0dr0BQeAX6QII+sKAPLOgDC/rAgj58+Ax/97ff4nv6wII+sKAPLOgDC/roJzcn34E+sKCPMdSOJfrAgj6woA8s6AML+sCCPmzoXZs8zcfVdbJY47XwNB/o0AcWK/jwrjGarOADAa0+ge5jpb5fA7qPp+Hp42l9vwaODyzoo53jHft/HMrHpg8s6AOLGX3EelFTK+J+pdht0uxiRh+Rlvp95kXbg4Z7bR/o/THOw9bn6G1zj4+adUMuJ1RPFvS4t65XMqfUCfpY8sBr/kg9jajtyPwk20jz+Yjajoas/Ug+vEF4nkYfWMzkQ7P/IoyFM2by4cVIdyv7QB0DJVb2gUZN/6CPfvj/qDLa74Y8WMFHuq6fndl9rPaMZZSPlndILewiELgzr8w+PnrYvBMoMJMPrXkCub0z+dCqS9btvdNfrHwgr43P2lvKt7W+efuwmqvT42vS2t6r/WV+3j4ssVhXjPbRkj+yD/m7zN737PJ6aPg4Mts1n6/OVcrvo+FYmsh1Rc7LHvI+5D4RdB+5tjN84hdOvx+0
+   eJztmwFuhCAQRdl6Am17m97/XN2kNTFEEHCAB/6XTOIao+AbhkV3F+fclwIRyzteTlB4OfkgIR8s5IOFfLCQDxby0YdP9/f99tvbLx8s5IOFfLCQDxbyUU5oTr6DfLCQjzakjiX5YCEfLOSDhXywkA8W8lGH0rXJ03xc3acaa7wcnuaDjnywmMFH7xpjyQw+CFjlBN3HTLmfAt3H0+jp42m5n4LGBwv5yGd7x/ofm/G55YOFfLAY0cdeL1JqxX5cLNY6zSxiRB87OfX7zIu1Bwv31j7o+bjPw7WvkbLvjBIfKeuGUD5SPVGoXa/8fDw6oY+lHvSaP46eWtR2Mj+HbdJ83qK20/BrP8lHbwjP0+SDxUg+LPOXMBbOGMlHL1q6m9kHdQzEmNkHjZT8kI9y9P+oONbvhnowg4/jun50Rvcx2zOWVj5y3iHlsHpB4M68Mvr4KGHp3YAII/mwmifI/R3Jh1Vdqt3fO/lSywd5bXzW31h7c+tbbx+15urj+S3J7e/V8X77evuoSY11RWsfOe0n+/B/l1n6nt2/HxY+tsB2yuera8Xa95FxLkv8dUXIy+rCPvxjdug+Qn1X9Ilf5ZMfSg==
   </data>
  </layer>
  <layer name="rewards" width="100" height="60">
