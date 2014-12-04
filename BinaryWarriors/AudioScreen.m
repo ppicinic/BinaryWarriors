@@ -11,7 +11,7 @@
 #import "Options.h"
 #import "SimpleAudioEngine.h"
 
-#define THEME_SONG @"4225775_The_River_War_Original_Mix.mp3"
+#define THEME_SONG @"Laika.mp3"
 
 @implementation AudioScreen : CCLayer
 
