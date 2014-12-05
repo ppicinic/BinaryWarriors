@@ -30,7 +30,7 @@ static CCLayer* lives = nil;
     if((self = [super init])) {
 		NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
         int num = [defaults integerForKey:@"difficulty_config"];
-		value = num;
+		value = 5 - num;
         lives = self;
         
         // Get the lives tile
