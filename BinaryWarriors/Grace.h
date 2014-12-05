@@ -69,11 +69,15 @@
 /** Resets Grace */
 - (void) reset;
 
+/** Returns true if Grace has acquired a weapon, false otherwise */
 - (BOOL) hasWeapon;
 
+/** Sets that Grace found the weapon */
 - (void) foundWeapon;
 
+/** Gets Grace's direction as a number */
 - (int) getDirection;
 
+/** Gets Grace's position as a CGPoint */
 -(CGPoint) getPosition;
 @end

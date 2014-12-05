@@ -27,7 +27,10 @@ static CCLayer* lives = nil;
 
 @implementation Lives
 - (id) initAt:(CGPoint) point {
-    if((self = [super init])) {        
+    if((self = [super init])) {
+		NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
+        int num = [defaults integerForKey:@"difficulty_config"];
+		value = num;
         lives = self;
         
         // Get the lives tile

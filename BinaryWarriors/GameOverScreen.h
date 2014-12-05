@@ -11,10 +11,13 @@
 
 @interface GameOverScreen : CCLayer
 
+/** Constructs the Game Over Screen */
 +(CCScene*) scene;
 
+/** Initializes the Game Over Screen */
 -(id) init;
 
+/** Handles on Continue press event */
 -(void) onContinue: (CCMenuItemFont*) button;
 
 @end

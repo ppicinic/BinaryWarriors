@@ -12,12 +12,16 @@
 
 @interface QuitScreen : CCLayer
 
+/** Constructs the Quit Screen */
 +(CCScene*) scene;
 
+/** Initializes the Quit Screen */
 -(id) init;
 
+/** Handles the on quit event */
 -(void) onQuit: (CCMenuItemFont*) button;
 
+/** Handles the on cancel event */
 -(void) onCancel: (CCMenuItemFont*) button;
 
 @end

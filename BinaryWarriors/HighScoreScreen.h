@@ -11,10 +11,13 @@
 
 @interface HighScoreScreen : CCLayer
 
+/** Constructs the High Score Screen */
 +(CCScene*) scene;
 
+/** Initializes the High Score Screen */
 -(id) init;
 
+/** Handles on Continue press event */
 -(void) onContinue: (CCMenuItemFont*) button;
 
 @end

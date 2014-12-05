@@ -14,12 +14,16 @@
     CCMenuItemFont* toggleButton;
 }
 
+/** Constructs the High Scores Screen */
 +(CCScene*) scene;
 
+/** Initializes the High Scores Screen */
 -(id) init;
 
+/** Handles the on toggle event */
 -(void) onToggle: (CCMenuItemFont*) button;
 
+/** Handles the on back event */
 -(void) onBack: (CCMenuItemFont*) button;
 
 @end

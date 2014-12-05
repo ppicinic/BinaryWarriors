@@ -11,16 +11,21 @@
 
 @interface MainScreen : CCLayer
 
+/** Constructs the Main Screen */
 +(CCScene*) scene;
 
+/** Initializes the Main Screen */
 -(id) init;
 
+/** Handles the on new event */
 -(void) onNew: (CCMenuItemFont*) button;
 
 //-(void) onResume: (CCMenuItemFont*) button;
 
+/** Handles the on options event */
 -(void) onOptions: (CCMenuItemFont*) button;
 
+/** Handles the on quit event */
 -(void) onQuit: (CCMenuItemFont*) button;
 
 @end

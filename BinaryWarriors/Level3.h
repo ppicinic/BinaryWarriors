@@ -23,8 +23,10 @@
 /** Initializes the world */
 - (void) initWorld;
 
+/** Updates the level */
 - (void) update: (ccTime)dt;
 
+/** Destroys a bullet from the level */
 -(void) destroyBullet: (id) bullet;
 
 @end
