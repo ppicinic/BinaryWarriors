@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A9E80571A3152CE000D9C2F /* backg2.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 4A9E80561A3152CE000D9C2F /* backg2.tmx */; };
 		4AF4644D19E0F7C9007DE418 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AF4644C19E0F7C9007DE418 /* QuartzCore.framework */; };
 		4AF4644F19E0F7C9007DE418 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AF4644E19E0F7C9007DE418 /* OpenGLES.framework */; };
 		4AF4645119E0F7C9007DE418 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AF4645019E0F7C9007DE418 /* OpenAL.framework */; };
@@ -217,6 +218,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A9E80561A3152CE000D9C2F /* backg2.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = backg2.tmx; sourceTree = "<group>"; };
 		4AF4644919E0F7C9007DE418 /* BinaryWarriors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BinaryWarriors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF4644C19E0F7C9007DE418 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		4AF4644E19E0F7C9007DE418 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -1154,6 +1156,7 @@
 				F8148BBB1A0BFEBA00C4E9CC /* binarywarriors_level2.tmx */,
 				F8148BC61A0C03AF00C4E9CC /* binarywarriors_level0.tmx */,
 				F8148BBC1A0BFEBA00C4E9CC /* binarywarriors_level3.tmx */,
+				4A9E80561A3152CE000D9C2F /* backg2.tmx */,
 				F8148BBD1A0BFEBA00C4E9CC /* tilemap.png */,
 				F853C0CE1A02BA2A0057CEAA /* backg.tmx */,
 				F853C0CF1A02BA2A0057CEAA /* level0.tmx */,
@@ -1309,6 +1312,7 @@
 				4AF4646D19E0F7CA007DE418 /* Icon-Small-50.png in Resources */,
 				F853C0DF1A02BA8D0057CEAA /* goal_2.png in Resources */,
 				F853C0D21A02BA2A0057CEAA /* level0.tmx in Resources */,
+				4A9E80571A3152CE000D9C2F /* backg2.tmx in Resources */,
 				F853C0F81A02BABA0057CEAA /* Mindblogger.mp3 in Resources */,
 				F853C0D11A02BA2A0057CEAA /* backg.tmx in Resources */,
 				F853C0FA1A02BABA0057CEAA /* wow.mp3 in Resources */,

@@ -65,11 +65,11 @@ int RID_LADDAS[] = { 14, 22, 30, 38, 46, 54 };
 
 - (void) initWorld {
     // Load the background
-	NSString backgFile = @"backg.tmx";
-	if([self isMemberOfClass Level0]){
-		backg2 = @"backg2.tmx";
+    NSString* text = @"backg.tmx";
+	if([self isMemberOfClass:[Level0 class]]){
+		text = @"backg2.tmx";
 	}
-    CCTMXTiledMap* backg = [CCTMXTiledMap tiledMapWithTMXFile:backgFile];
+    CCTMXTiledMap* backg = [CCTMXTiledMap tiledMapWithTMXFile:text];
     
     [self addChild: backg z:0];
 
